@@ -1,0 +1,305 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/Cronometro" itemID="4eb28d9a-000001de" linkageExportForAS="true" linkageClassName="Cronometro" lastModified="1321037906" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Cronometro">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="display" width="63.45" height="22.35" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.734344482421875" d="0.734344482421875" tx="17.3" ty="16.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31.75" y="11.15"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="counter" width="45.05" height="16.8" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="166.05" ty="16.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>10000</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="14" bitmapSize="280" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Buttons/BtnPause" name="btn_pause" symbolType="button">
+                  <matrix>
+                    <Matrix tx="102.6" ty="21.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/BtnResetCron" name="btn_reset" symbolType="button">
+                  <matrix>
+                    <Matrix tx="135.3" ty="21.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMRectangleObject objectWidth="50" objectHeight="18" x="7" y="6.9" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
+                      <matrix>
+                        <Matrix tx="156.35" ty="7.35"/>
+                      </matrix>
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0.0701904296875" d="0.016082763671875" tx="64.5" ty="20.05"/>
+                          </matrix>
+                          <GradientEntry color="#E1E1E1" ratio="0"/>
+                          <GradientEntry color="#FFFFFF" ratio="0.486274509803922"/>
+                          <GradientEntry color="#E9E9E9" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                      <stroke>
+                        <SolidStroke scaleMode="normal" weight="2">
+                          <fill>
+                            <SolidColor color="#66FFFF"/>
+                          </fill>
+                        </SolidStroke>
+                      </stroke>
+                    </DOMRectangleObject>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor alpha="0.4"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!4220 310|3371 310!3371 310[3313 312 3312 369!3312 369|3312 585!3312 585[3312 605 3319 619!3319 619[3282 608 3282 560!3282 560|3282 347!3282 347[3282 286 3342 285!3342 285[3343 285 3344 285!3344 285|4190 285!4190 285[4232 285 4246 314
+!4246 314[4234 310 4220 310"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMStaticText width="57.95" height="11.4" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="159.65" ty="2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>contagem</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="10" bitmapSize="200" face="Arial-BoldMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMStaticText width="57.95" height="11.4" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="22.15" ty="2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>tempo</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="10" bitmapSize="200" face="Arial-BoldMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMRectangleObject objectWidth="50" objectHeight="18" x="7" y="6.9" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
+                      <matrix>
+                        <Matrix tx="8.85" ty="7.35"/>
+                      </matrix>
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0.0701904296875" d="0.016082763671875" tx="64.5" ty="20.05"/>
+                          </matrix>
+                          <GradientEntry color="#E1E1E1" ratio="0"/>
+                          <GradientEntry color="#FFFFFF" ratio="0.486274509803922"/>
+                          <GradientEntry color="#E9E9E9" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                      <stroke>
+                        <SolidStroke scaleMode="normal" weight="2">
+                          <fill>
+                            <SolidColor color="#66FFFF"/>
+                          </fill>
+                        </SolidStroke>
+                      </stroke>
+                    </DOMRectangleObject>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor alpha="0.4"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="
+!1296 314[1284 310 1270 310!1270 310|421 310!421 310[363 312 362 369!362 369|362 585!362 585[362 605 369 619!369 619[332 608 332 560!332 560|332 347!332 347[332 286 392 285!392 285[393 285 394 285!394 285|1240 285!1240 285[1282 285 1296
+ 314"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Buttons/BtnPlay" name="btn_play" symbolType="button">
+                  <matrix>
+                    <Matrix tx="102.6" ty="21.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fundo" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="225" objectHeight="30" x="0" y="0" topLeftRadius="9" topRightRadius="9">
+                  <matrix>
+                    <Matrix a="0.944473266601563" tx="8.1" ty="2.1"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#7A9ABB"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="2">
+                      <fill>
+                        <SolidColor color="#66FFFF"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="166.25" y="33.6"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="166.25" y="33.6"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.0048828125" c="-0.139419555664063" d="0" tx="114.35" ty="33.6"/>
+                            </matrix>
+                            <GradientEntry color="#7E94AA" ratio="0"/>
+                            <GradientEntry color="#003366" ratio="0.682352941176471"/>
+                            <GradientEntry color="#0099FF" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.0048828125" c="-0.139419555664063" d="0" tx="166.25" ty="33.6"/>
+                            </matrix>
+                            <GradientEntry color="#7E94AA" ratio="0"/>
+                            <GradientEntry color="#003366" ratio="0.682352941176471"/>
+                            <GradientEntry color="#0099FF" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="2">
+                            <fill>
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="0.0060272216796875" d="0.006103515625" tx="224.75" ty="33.35"/>
+                                </matrix>
+                                <GradientEntry color="#66FFFF" ratio="0"/>
+                                <GradientEntry color="#66FFFF" alpha="0" ratio="1"/>
+                              </LinearGradient>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                        <StrokeStyle index="2">
+                          <SolidStroke scaleMode="normal" weight="2">
+                            <fill>
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="-0.0060272216796875" d="0.006103515625" tx="4" ty="33.35"/>
+                                </matrix>
+                                <GradientEntry color="#66FFFF" ratio="0"/>
+                                <GradientEntry color="#66FFFF" alpha="0" ratio="1"/>
+                              </LinearGradient>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="
+!4411 592|4411 593"/>
+                        <Edge strokeStyle="1" edges="
+!4411 593[4424 742 4575 747"/>
+                        <Edge fillStyle1="1" edges="
+!4411 593[4419 747 4570 752!4570 752|3371 752"/>
+                        <Edge fillStyle1="2" edges="
+!3371 752|2655 752"/>
+                        <Edge fillStyle1="1" edges="
+!2655 752|2 752!2 752[110 748 145 668"/>
+                        <Edge strokeStyle="2" edges="
+!145 668[108 743 0 747"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="
+!3371 752|3371 592"/>
+                        <Edge fillStyle0="2" edges="
+!3371 592|2655 592"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="
+!2655 592|2655 752"/>
+                        <Edge fillStyle0="1" edges="
+!4411 592|3371 592"/>
+                        <Edge fillStyle0="1" fillStyle1="1" strokeStyle="2" edges="
+!164 592[161 636 145 668"/>
+                        <Edge fillStyle0="1" edges="
+!164 592|162 592!162 592[159 636 145 668!2655 592|164 592"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

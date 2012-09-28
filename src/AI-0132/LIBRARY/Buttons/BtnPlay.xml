@@ -1,0 +1,147 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/BtnPlay" itemID="4eb28df5-000001e7" symbolType="button" lastModified="1320758085">
+  <timeline>
+    <DOMTimeline name="BtnPlay">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMRectangleObject objectWidth="4.1" objectHeight="13.15" x="22.25" y="-6.25" lockFlag="true" topLeftRadius="2.4" topRightRadius="2.4" bottomLeftRadius="2.4" bottomRightRadius="2.4">
+                          <matrix>
+                            <Matrix a="0.555130004882813" b="-0.555130004882813" c="0.555130004882813" d="0.555130004882813" tx="-12.5" ty="10.95"/>
+                          </matrix>
+                          <fill>
+                            <SolidColor/>
+                          </fill>
+                        </DOMRectangleObject>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMRectangleObject objectWidth="4.1" objectHeight="13.15" x="22.25" y="-6.25" lockFlag="true" topLeftRadius="2.4" topRightRadius="2.4" bottomLeftRadius="2.4" bottomRightRadius="2.4">
+                          <matrix>
+                            <Matrix a="-0.554946899414063" b="-0.554946899414063" c="0.554946899414063" d="-0.554946899414063" tx="14.4" ty="16.5"/>
+                          </matrix>
+                          <fill>
+                            <SolidColor/>
+                          </fill>
+                        </DOMRectangleObject>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMRectangleObject objectWidth="4.1" objectHeight="13.15" x="22.25" y="-6.25" lockFlag="true" topLeftRadius="2.4" topRightRadius="2.4" bottomLeftRadius="2.4" bottomRightRadius="2.4">
+                      <matrix>
+                        <Matrix a="0.555130004882813" b="-0.555130004882813" c="0.555130004882813" d="0.555130004882813" tx="-12.5" ty="10.95"/>
+                      </matrix>
+                      <fill>
+                        <SolidColor color="#0099FF"/>
+                      </fill>
+                    </DOMRectangleObject>
+                    <DOMRectangleObject objectWidth="4.1" objectHeight="13.15" x="22.25" y="-6.25" lockFlag="true" topLeftRadius="2.4" topRightRadius="2.4" bottomLeftRadius="2.4" bottomRightRadius="2.4">
+                      <matrix>
+                        <Matrix a="-0.554946899414063" b="-0.554946899414063" c="0.554946899414063" d="-0.554946899414063" tx="14.4" ty="16.5"/>
+                      </matrix>
+                      <fill>
+                        <SolidColor color="#0099FF"/>
+                      </fill>
+                    </DOMRectangleObject>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <RadialGradient>
+                                <matrix>
+                                  <Matrix a="0.0146026611328125" d="0.0146026611328125" ty="0.05"/>
+                                </matrix>
+                                <GradientEntry color="#FFFFFF" ratio="0"/>
+                                <GradientEntry color="#BBBBBB" ratio="0.882352941176471"/>
+                                <GradientEntry color="#7C7C7C" ratio="1"/>
+                              </RadialGradient>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!167 -168[237 -98 237 1!237 1[237 98 167 168!167 168[99 237 0 237!0 237[-97 237 -167 168!-167 168[-236 98 -236 1!-236 1[-236 -98 -167 -168!-167 -168[-97 -237 0 -237!0 -237[99 -237 167 -168"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <RadialGradient>
+                                <matrix>
+                                  <Matrix a="0.0103607177734375" d="0.0103607177734375" tx="0.65" ty="-1.4"/>
+                                </matrix>
+                                <GradientEntry color="#FFFFFF" alpha="0.2" ratio="0.898039215686275"/>
+                                <GradientEntry color="#FFFFFF" ratio="1"/>
+                              </RadialGradient>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!95 -146[60 -172 15 -174!15 -174|15 -197!15 -197[66 -196 106 -168!106 -168|95 -146!-100 -153[-62 -189 -10 -196!-10 -196|-6 -172!-6 -172[-51 -166 -87 -134!-87 -134|-100 -153"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="0.5" y="1.15"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMShape>
+                          <transformationPoint>
+                            <Point x="0.5" y="1.15"/>
+                          </transformationPoint>
+                          <fills>
+                            <FillStyle index="1">
+                              <RadialGradient>
+                                <matrix>
+                                  <Matrix a="0.0121917724609375" d="0.0121917724609375" tx="0.65" ty="0.95"/>
+                                </matrix>
+                                <GradientEntry color="#FFFFFF" ratio="0"/>
+                                <GradientEntry color="#F6F6F6" alpha="0" ratio="1"/>
+                              </RadialGradient>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!151 -120[206 -65 208 9!208 9[6 -54 -182 9!-182 9[-179 -65 -125 -120!-125 -120[-68 -177 13 -177!13 -177[94 -177 151 -120"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

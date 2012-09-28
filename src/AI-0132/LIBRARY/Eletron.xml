@@ -1,0 +1,104 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Eletron" itemID="4eb2b629-00000220" linkageExportForAS="true" linkageClassName="Eletron" lastModified="1320774703" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Eletron">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="12.75" objectHeight="12.75" x="23.25" y="-2.5" endAngle="0">
+                  <matrix>
+                    <Matrix a="-1.52587890625e-005" b="0.689208984375" c="-0.9189453125" d="-1.52587890625e-005" tx="3.2" ty="-24.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="29.65" y="4.05"/>
+                  </transformationPoint>
+                  <fill>
+                    <LinearGradient>
+                      <matrix>
+                        <Matrix a="0.0078125" d="0.0078125" tx="29.65" ty="3.85"/>
+                      </matrix>
+                      <GradientEntry color="#FFFFFF" ratio="0"/>
+                      <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                    </LinearGradient>
+                  </fill>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-60 0|60 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.01007080078125" d="0.01007080078125"/>
+                        </matrix>
+                        <GradientEntry color="#99FF00" ratio="0.117647058823529"/>
+                        <GradientEntry color="#006700" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#99FF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!105 -106[150 -62 150 0!150 0[150 62 105 105!105 105[62 150 0 150!0 150[-62 150 -106 105!-106 105[-150 62 -150 0!-150 0[-150 -62 -106 -106!-106 -106[-62 -150 0 -150!0 -150[62 -150 105 -106"/>
+                    <Edge cubics="!0 -150(;41,-150 76,-135 105,-106q0 -150Q62 -150q105 -106);"/>
+                    <Edge cubics="!105 105(105,105;76,135 41,150 0,150q105 105Q62 150q0 150);"/>
+                    <Edge cubics="!150 0(;150,41 135,76 105,105q150 0Q150 62q105 105);"/>
+                    <Edge cubics="!105 -106(;135,-77 150,-41 150,0q105 -106Q150 -62q150 0);"/>
+                    <Edge cubics="!-106 105(;-135,76 -150,41 -150,0q-106 105Q-150 62q-150 0)-150,0;"/>
+                    <Edge cubics="!-150 0(;-150,-41 -135,-77 -106,-106q-150 0Q-150 -62q-106 -106);"/>
+                    <Edge cubics="!-106 -106(;-77,-135 -41,-150 0,-150q-106 -106Q-62 -150q0 -150);"/>
+                    <Edge cubics="!0 150(;-41,150 -77,135 -106,105q0 150Q-62 150q-106 105);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Brilho">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

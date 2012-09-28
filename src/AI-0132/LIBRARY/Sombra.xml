@@ -1,0 +1,78 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sombra" itemID="4eb7f845-0000075e" lastModified="1320752400">
+  <timeline>
+    <DOMTimeline name="Sombra">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor alpha="0.694117647058824"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor alpha="0.0862745098039216"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="2" edges="!5130 -3980|5510 -3177!5510 -3177|-5285 -3177!-5285 -3177|-5110 -4238!-5110 -4238|-5228 -4119!-5228 -4119|-6248 -228!-6248 -228[#FFE806.0B #253.78 -5499 702!-5499 702[#FFEB4A.C8 #2DE.FB -5095 753!-5095 753|-2915 753!-2915 753|-2915 1283
+!-2915 1283|3776 1283!3776 1283|3776 753!3776 753|5874 753!5874 753[#1915.F9 #313.7D 6450 453.5!6450 453.5|6450 -2027!6450 -2027|5275 -3978!5275 -3978|5130 -3980"/>
+                        <Edge fillStyle1="1" edges="
+!4904 -4031|1938 -4031!1938 -4031[1704 -4053 1790 -4106!1790 -4106|2694 -4092!2694 -4092|5066 -4084!5066 -4084[5178 -4035 4904 -4031!-1940 -4412|-3563 -4412!-3563 -4412[-3761 -4433 -3732 -4450!-3732 -4450|-1765 -4450!-1765 -4450[-1712
+ -4415 -1940 -4412!-3602 -4009[-3570 -3941 -3678 -3935!-3678 -3935|-4901 -3935!-4901 -3935[-4979 -3965 -4976 -4039!-4976 -4039|-3602 -4009"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="-204" y="-215.45"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMRectangleObject objectWidth="79.55" objectHeight="11.45" x="26.3" y="138.25" selected="true" lockFlag="true" topLeftRadius="2.2" topRightRadius="2.2" bottomLeftRadius="2.2" bottomRightRadius="2.2">
+                      <matrix>
+                        <Matrix a="-1.13458251953125" c="0.38641357421875" d="0.423583984375" tx="-230.3" ty="-273.9"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="66.5" y="143.9"/>
+                      </transformationPoint>
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0" b="0.006988525390625" c="-0.048553466796875" d="0" tx="66.1" ty="143.95"/>
+                          </matrix>
+                          <GradientEntry ratio="0.356862745098039"/>
+                          <GradientEntry alpha="0" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                    </DOMRectangleObject>
+                    <DOMOvalObject objectWidth="42.55" objectHeight="19.45" x="-277.85" y="-216.2" selected="true" endAngle="0">
+                      <matrix>
+                        <Matrix a="-1.121826171875" c="0.600112915039063" d="0.820510864257813" tx="-400.3" ty="-37.9"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-256.85" y="-206.5"/>
+                      </transformationPoint>
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0" b="0.014739990234375" c="-0.0260009765625" d="0" tx="-256.55" ty="-206.1"/>
+                          </matrix>
+                          <GradientEntry alpha="0.498039215686275" ratio="0"/>
+                          <GradientEntry alpha="0" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                    </DOMOvalObject>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

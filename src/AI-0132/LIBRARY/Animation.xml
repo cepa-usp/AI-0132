@@ -1,0 +1,152 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Animation" itemID="4eb2b5ff-0000021b" linkageExportForAS="true" linkageClassName="Animation" lastModified="1320843764" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Animation">
+      <layers>
+        <DOMLayer name="label" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MCarea" name="mcArea" selected="true" centerPoint3DX="409.65" centerPoint3DY="69.45">
+                  <matrix>
+                    <Matrix tx="328.35" ty="113.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="81.3" y="-44.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="322" y="94.8"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="322" y="94.8"/>
+                      </transformationPoint>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="2">
+                            <fill>
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="0.00872802734375" d="0.110137939453125" tx="322.05" ty="94.85"/>
+                                </matrix>
+                                <GradientEntry color="#FFFFFF" alpha="0" ratio="0"/>
+                                <GradientEntry color="#FFFFFF" ratio="1"/>
+                              </LinearGradient>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!6311 100[6411 169 6485 617!6485 617[6486 625 6488 634!6518 849[6573 1304 6573 1897!6573 1897[6573 2646 6485 3176!6485 3176[6411 3624 6311 3693"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="secao" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Secao1" name="secaoFundo" centerPoint3DX="314.9" centerPoint3DY="93.15">
+                  <matrix>
+                    <Matrix a="0.96063232421875" d="0.781036376953125" tx="314.9" ty="3.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.2" y="114.55"/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter blurX="2" blurY="2" quality="3"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Secao2" name="secaoFrente" centerPoint3DX="320.9" centerPoint3DY="94.2">
+                  <matrix>
+                    <Matrix a="0.96063232421875" d="0.780975341796875" tx="314.9" ty="4.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="115.35"/>
+                  </transformationPoint>
+                  <filters>
+                    <BlurFilter blurX="2" blurY="2" quality="3"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="309.55" y="94.1"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="309.55" y="94.1"/>
+                      </transformationPoint>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="-0.0073699951171875" d="0.109268188476563" tx="309.5" ty="94.1"/>
+                                </matrix>
+                                <GradientEntry alpha="0" ratio="0"/>
+                                <GradientEntry ratio="1"/>
+                              </LinearGradient>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!6301 100[6216 168 6154 613!6154 613[6153 621 6151 629!6125 843[6080 1295 6080 1882!6080 1882[6080 2626 6154 3151!6154 3151[6216 3597 6301 3665"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="308.6" y="93.6"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="308.6" y="93.6"/>
+                      </transformationPoint>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="-0.0073699951171875" d="0.109268188476563" tx="308.55" ty="93.6"/>
+                                </matrix>
+                                <GradientEntry color="#FFFFFF" alpha="0" ratio="0"/>
+                                <GradientEntry color="#FF0000" ratio="1"/>
+                              </LinearGradient>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!6281 90[6197 159 6135 603!6135 603[6134 611 6132 620!6106 833[6061 1285 6061 1872!6061 1872[6061 2617 6135 3141!6135 3141[6197 3587 6281 3655"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/VerExerc" itemID="4ea1ce7c-00000273" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="VerExerc" lastModified="1319482222" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="VerExerc">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText left="20.95" width="102.1" height="13.7" autoExpand="true" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.10710144042969" d="1.10488891601563" tx="-36.1" ty="2.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="72" y="8.6"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Ocultar respostas</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" bitmapSize="240" face="Arial-BoldMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

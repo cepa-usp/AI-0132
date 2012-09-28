@@ -1,0 +1,385 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuBar" itemID="5061eb9c-00000208" linkageExportForAS="true" linkageClassName="MenuBar" lastModified="1348782394" lastUniqueIdentifier="12">
+  <timeline>
+    <DOMTimeline name="MenuBar">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtRespostaCorrente" width="94" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="250" ty="31.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>I = aaaa x 10</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txtRespostaDensidade" width="89" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="251" ty="87.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>I = aaaa x 10</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txtRespostaCorrenteExp" width="16" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="350.95" ty="26.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>23</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="10" bitmapSize="200" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txtRespostaDensidadeExp" width="16" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="351" ty="80.35"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>23</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="10" bitmapSize="200" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="ii" width="19" height="18.65" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="31.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>I = </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="BookAntiqua"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMInputText name="corrente" width="47" height="16.8" maxCharacters="7">
+                  <matrix>
+                    <Matrix tx="38" ty="31.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMDynamicText name="correnteMult" width="29.95" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="93" ty="31.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>x 10 </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMInputText name="expCorrente" width="17" height="16.8" maxCharacters="3">
+                  <matrix>
+                    <Matrix tx="123.95" ty="16.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="10" bitmapSize="200" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMDynamicText name="correnteUnit" width="13" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="144.95" ty="31.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="jj" width="19" height="18.65" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="87.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>j = </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="BookAntiqua"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMInputText name="densidade" width="47" height="17.2" maxCharacters="7">
+                  <matrix>
+                    <Matrix tx="38" ty="87.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMDynamicText name="densidadeMult" width="29" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="92.95" ty="87.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>x 10 </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMInputText name="expDensidade" width="17" height="16.8" maxCharacters="3">
+                  <matrix>
+                    <Matrix tx="124" ty="70.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="10" bitmapSize="200" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMDynamicText name="densidadeUnit" width="36.05" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="143.95" ty="87.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A/m²</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Buttons/BtAvaliar" name="btAvaliar" centerPoint3DX="567.4" centerPoint3DY="23.95">
+                  <matrix>
+                    <Matrix tx="590.45" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-23" y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/BtNovamente" name="btNovamente" centerPoint3DX="569.45" centerPoint3DY="63.95">
+                  <matrix>
+                    <Matrix tx="569.45" ty="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.2" y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/BtVerResposta" name="btVerResposta" centerPoint3DX="567.45" centerPoint3DY="167.45">
+                  <matrix>
+                    <Matrix tx="537.45" ty="167.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="29.8" y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="densidadeUnitAnswer" width="36.05" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="371.95" ty="87.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A/m²</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="correnteUnitAnswer" width="13" height="16.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="372.95" ty="31.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.270588235294118"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#0099CC" alpha="0.694117647058824"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!2790 292S2|2790 708!2790 708|2449 708!2449 708|2449 292!2449 292|2790 292"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!2790 1372|2790 1788!2790 1788|2449 1788!2449 1788|2449 1372!2449 1372|2790 1372!1740 1004|720 1004!720 1004|720 588!720 588|1740 588!1740 588|1740 1004!1720 1708|1720 2124!1720 2124|720 2124!720 2124|720 1708!720 1708|1720 1708"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="CertoErrado" name="answerCorrente" centerPoint3DX="229.95" centerPoint3DY="38">
+                  <matrix>
+                    <Matrix tx="198.95" ty="38"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="CertoErrado" name="answerDensidade" centerPoint3DX="229.95" centerPoint3DY="94">
+                  <matrix>
+                    <Matrix tx="198.95" ty="94"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#66FFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!14024 3000|0 3000!0 3000|0 0!0 0|14024 0!14024 0|14024 3000"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="123.05" y="148.45"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="0.428741455078125" d="0.091552734375" tx="349.6" ty="73.5"/>
+                                </matrix>
+                                <GradientEntry color="#C4C4C4" alpha="0.686274509803922" ratio="0"/>
+                                <GradientEntry color="#CCCCCC" alpha="0.298039215686275" ratio="1"/>
+                              </LinearGradient>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!14002 2970S2|-22 2970!-22 2970|-22 -30!-22 -30|14002 -30!14002 -30|14002 2970"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <LinearGradient>
+                                    <matrix>
+                                      <Matrix a="0" b="0.091552734375" c="-0.4298095703125" d="0" tx="351" ty="74.9"/>
+                                    </matrix>
+                                    <GradientEntry color="#FFFFFF" alpha="0.298039215686275" ratio="0"/>
+                                    <GradientEntry color="#FFFFFF" alpha="0.298039215686275" ratio="1"/>
+                                  </LinearGradient>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle0="1" edges="!14062 -2S1|-22 -2!-22 -2|-22 1502!-22 1502[7020 699 14062 1502!14062 1502|14062 -2"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="UpDown" name="btn_upDown" centerPoint3DX="350.6" centerPoint3DY="-5">
+                  <matrix>
+                    <Matrix tx="330.2" ty="-10.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.4" y="5.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

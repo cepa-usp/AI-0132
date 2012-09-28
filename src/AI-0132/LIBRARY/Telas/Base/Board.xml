@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Telas/Base/Board" itemID="4cae755c-000000d7" sourceFlashFilepath=".\LAL.fla" sourceLibraryItemHRef="Board" sourceLastModified="1286501726" symbolType="graphic" lastModified="1319804942" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="Board">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="1.5" y="0.5"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMRectangleObject objectWidth="600.65" objectHeight="446.4" x="-301.25" y="-221.25" lockFlag="true" topLeftRadius="11.8" topRightRadius="11.8" bottomLeftRadius="11.8" bottomRightRadius="11.8">
+                          <matrix>
+                            <Matrix tx="0.95" ty="-1.95"/>
+                          </matrix>
+                          <fill>
+                            <LinearGradient>
+                              <matrix>
+                                <Matrix a="0" b="-0.2724609375" c="0.366607666015625" d="0" tx="-0.95" ty="1.95"/>
+                              </matrix>
+                              <GradientEntry color="#CAC9C9" ratio="0"/>
+                              <GradientEntry color="#FFFFFF" ratio="0.47843137254902"/>
+                            </LinearGradient>
+                          </fill>
+                          <stroke>
+                            <SolidStroke scaleMode="normal" weight="2">
+                              <fill>
+                                <SolidColor color="#CCCCCC"/>
+                              </fill>
+                            </SolidStroke>
+                          </stroke>
+                        </DOMRectangleObject>
+                      </members>
+                    </DOMGroup>
+                    <DOMSymbolInstance libraryItemName="Telas/Base/Ondas" name="" centerPoint3DX="-0.9" centerPoint3DY="105.6">
+                      <matrix>
+                        <Matrix a="1.12370300292969" d="1.0047607421875" tx="-386.25" ty="-115.85"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="456.5" y="188.6"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fundo" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="640" objectHeight="480" x="-322.7" y="-246.55" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="2.7" ty="6.55"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor alpha="0.6"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
