@@ -1,28 +1,7 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Telas/InfoScreen" itemID="4d3b5ae8-00000583" linkageExportForAS="true" linkageClassName="InfoScreen" sourceFlashFilepath="..\AI-0132\LAL.fla" sourceLibraryItemHRef="InstructionScreen" sourceLastModified="1286502021" lastModified="1321023998">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Telas/InfoScreen132" itemID="506b2ab0-0000024f" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="InfoScreen132" sourceFlashFilepath="..\AI-0132\LAL.fla" sourceLibraryItemHRef="InstructionScreen" sourceLastModified="1286502021" lastModified="1349200607" isSpriteSubclass="true">
   <timeline>
-    <DOMTimeline name="InfoScreen">
+    <DOMTimeline name="InfoScreen132">
       <layers>
-        <DOMLayer name="actions" color="#9933CC" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" name="BEGIN" labelType="name" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[stop();
-this.visible = true;]]></script>
-              </Actionscript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="1" duration="8" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="9" name="END" labelType="name" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[this.visible = false;
-stop();]]></script>
-              </Actionscript>
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
         <DOMLayer name="Instruções" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -93,8 +72,8 @@ stop();]]></script>
                                 </FillStyle>
                               </fills>
                               <edges>
-                                <Edge fillStyle1="1" edges="!-1415 -1583[-1339 -1583 -1288 -1531!-1288 -1531[-1235 -1478 -1235 -1402!-1235 -1402[-1235 -1329 -1288 -1276!-1288 -1276[-1339 -1223 -1415 -1223!-1415 -1223[-1489 -1223 -1543 -1276!-1543 -1276[-1595 -1329 -1595 -1402!-1595 -1402[-1595
- -1478 -1543 -1531!-1543 -1531[-1489 -1583 -1415 -1583"/>
+                                <Edge fillStyle1="1" edges="!-1235 -1402[-1235 -1329 -1288 -1276!-1288 -1276[-1339 -1223 -1415 -1223!-1415 -1223[-1489 -1223 -1543 -1276!-1543 -1276[-1595 -1329 -1595 -1402!-1595 -1402[-1595 -1478 -1543 -1531!-1543 -1531[-1489 -1583 -1415 -1583!-1415 -1583[-1339
+ -1583 -1288 -1531!-1288 -1531[-1235 -1478 -1235 -1402"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -115,8 +94,8 @@ stop();]]></script>
                               </fills>
                               <edges>
                                 <Edge fillStyle1="1" edges="
-!-1419 -1534[-1454 -1530 -1481 -1505!-1481 -1505|-1491 -1520!-1491 -1520[-1463 -1547 -1423 -1552!-1423 -1552|-1419 -1534!-1403 -1553[-1364 -1552 -1334 -1531!-1334 -1531|-1343 -1515!-1343 -1515[-1370 -1534 -1403 -1536!-1403 -1536|-1403
- -1553"/>
+!-1491 -1520[-1463 -1547 -1423 -1552!-1423 -1552|-1419 -1534!-1419 -1534[-1454 -1530 -1481 -1505!-1481 -1505|-1491 -1520!-1343 -1515[-1370 -1534 -1403 -1536!-1403 -1536|-1403 -1553!-1403 -1553[-1364 -1552 -1334 -1531!-1334 -1531|-1343
+ -1515"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -143,7 +122,7 @@ stop();]]></script>
                               </fills>
                               <edges>
                                 <Edge fillStyle1="1" edges="
-!-1510 -1495[-1467 -1538 -1405 -1538!-1405 -1538[-1344 -1538 -1300 -1495!-1300 -1495[-1258 -1453 -1256 -1397!-1256 -1397[-1411 -1444 -1553 -1397!-1553 -1397[-1551 -1453 -1510 -1495"/>
+!-1300 -1495[-1258 -1453 -1256 -1397!-1256 -1397[-1411 -1444 -1553 -1397!-1553 -1397[-1551 -1453 -1510 -1495!-1510 -1495[-1467 -1538 -1405 -1538!-1405 -1538[-1344 -1538 -1300 -1495"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -201,8 +180,8 @@ stop();]]></script>
                               </fills>
                               <edges>
                                 <Edge fillStyle1="1" edges="
-!2758 -1221[2684 -1221 2630 -1273!2630 -1273[2578 -1327 2578 -1401!2578 -1401[2578 -1477 2630 -1530!2630 -1530[2684 -1582 2758 -1582!2758 -1582[2833 -1582 2885 -1530!2885 -1530[2938 -1477 2938 -1401!2938 -1401[2938 -1327 2885 -1273!2885
- -1273[2833 -1221 2758 -1221"/>
+!2578 -1401[2578 -1477 2630 -1530!2630 -1530[2684 -1582 2758 -1582!2758 -1582[2833 -1582 2885 -1530!2885 -1530[2938 -1477 2938 -1401!2938 -1401[2938 -1327 2885 -1273!2885 -1273[2833 -1221 2758 -1221!2758 -1221[2684 -1221 2630 -1273!2630
+ -1273[2578 -1327 2578 -1401"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -223,7 +202,7 @@ stop();]]></script>
                               </fills>
                               <edges>
                                 <Edge fillStyle1="1" edges="
-!2691 -1504|2681 -1519!2681 -1519[2710 -1545 2750 -1551!2750 -1551|2752 -1533!2752 -1533[2718 -1528 2691 -1504!2838 -1530|2830 -1512!2830 -1512[2803 -1533 2769 -1534!2769 -1534|2769 -1552!2769 -1552[2807 -1551 2838 -1530"/>
+!2750 -1551|2752 -1533!2752 -1533[2718 -1528 2691 -1504!2691 -1504|2681 -1519!2681 -1519[2710 -1545 2750 -1551!2769 -1534|2769 -1552!2769 -1552[2807 -1551 2838 -1530!2838 -1530|2830 -1512!2830 -1512[2803 -1533 2769 -1534"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -250,7 +229,7 @@ stop();]]></script>
                               </fills>
                               <edges>
                                 <Edge fillStyle1="1" edges="
-!2662 -1493[2705 -1537 2768 -1537!2768 -1537[2829 -1537 2872 -1493!2872 -1493[2914 -1451 2915 -1396!2915 -1396[2763 -1443 2619 -1396!2619 -1396[2621 -1451 2662 -1493"/>
+!2872 -1493[2914 -1451 2915 -1396!2915 -1396[2763 -1443 2619 -1396!2619 -1396[2621 -1451 2662 -1493!2662 -1493[2705 -1537 2768 -1537!2768 -1537[2829 -1537 2872 -1493"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -317,8 +296,8 @@ stop();]]></script>
                               </fills>
                               <edges>
                                 <Edge fillStyle1="1" edges="
-!-5565 -1024|-5575 -1038!-5575 -1038[-5546 -1066 -5507 -1071!-5507 -1071|-5504 -1053!-5504 -1053[-5538 -1048 -5565 -1024!-5418 -1050|-5427 -1033!-5427 -1033[-5453 -1053 -5488 -1054!-5488 -1054|-5488 -1072!-5488 -1072[-5449 -1071 -5418
- -1050"/>
+!-5507 -1071|-5504 -1053!-5504 -1053[-5538 -1048 -5565 -1024!-5565 -1024|-5575 -1038!-5575 -1038[-5546 -1066 -5507 -1071!-5488 -1054|-5488 -1072!-5488 -1072[-5449 -1071 -5418 -1050!-5418 -1050|-5427 -1033!-5427 -1033[-5453 -1053 -5488
+ -1054"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -378,18 +357,14 @@ stop();]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Board" color="#FF800A" autoNamed="false" animationType="motion object">
+        <DOMLayer name="Board" color="#FF800A" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500391" xformPtYOffsetPct="0.500625" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,36.4868" next="0,36.4868" previous="0,36.4868" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,36.4868" next="0,36.4868" previous="0,36.4868" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+            <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Base/Board" symbolType="graphic" loop="loop">
                   <transformationPoint>
                     <Point x="0.25" y="0.3"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

@@ -5,15 +5,16 @@
           <DOMFolderItem name="Buttons" itemID="4d3b4b7d-000004c3"/>
           <DOMFolderItem name="Logos" itemID="4eb82431-00000327"/>
           <DOMFolderItem name="Objects" itemID="4eb28da9-000001e5" isExpanded="true"/>
-          <DOMFolderItem name="Telas" itemID="4eb042dd-0000026e"/>
+          <DOMFolderItem name="Telas" itemID="4eb042dd-0000026e" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 1" itemID="4eb291d9-00000213" font="ArialMT" size="0" id="1" sourceLastImported="1320325593" embeddedCharacters=",." embedRanges="3"/>
-          <DOMFontItem name="Font 2" itemID="4eba7a3d-00000279" font="Arial-BoldMT" size="0" id="2" sourceLastImported="1320843837" embeddedCharacters=".,*-" embedRanges="3"/>
           <DOMFontItem name="Font 3" itemID="4ebd3c63-00000243" font="BookAntiqua" size="0" id="3" sourceLastImported="1321024611" embeddedCharacters="iIjJ"/>
+          <DOMFontItem name="Font 2" itemID="4eba7a3d-00000279" font="Arial-BoldMT" size="0" id="2" sourceLastImported="1320843837" embeddedCharacters=".,*-" embedRanges="3"/>
+          <DOMFontItem name="Font 1" itemID="4eb291d9-00000213" font="ArialMT" size="0" id="1" sourceLastImported="1320325593" embeddedCharacters=",." embedRanges="3"/>
      </fonts>
      <media>
           <DOMBitmapItem name="Logos/Bitmap 4" itemID="4eaaa12d-00000715" sourceLastImported="1319805229" originalCompressionType="lossless" quality="50" href="Logos/Bitmap 4" bitmapDataHRef="M 4 1319805229.dat" frameRight="3420" frameBottom="1780"/>
+          <DOMBitmapItem name="Bitmap 7" itemID="506b32b4-0000028d" sourceLastImported="1349202612" originalCompressionType="lossless" quality="50" href="Bitmap 7" bitmapDataHRef="M 7 1349202612.dat" frameRight="3440" frameBottom="720"/>
           <DOMBitmapItem name="bt_certo.png" itemID="4eb94a68-0000024f" sourceExternalFilepath="../AI-0132/LIBRARY/bt_certo.png" sourceLastImported="1313529746" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="bt_certo.png" bitmapDataHRef="M 5 1320760869.dat" frameRight="580" frameBottom="580"/>
           <DOMBitmapItem name="bt_errado.png" itemID="4eb94a68-00000250" sourceExternalFilepath="../AI-0132/LIBRARY/bt_errado.png" sourceLastImported="1313529746" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="bt_errado.png" bitmapDataHRef="M 6 1320760869.dat" frameRight="580" frameBottom="580"/>
           <DOMBitmapItem name="lampada.png" itemID="4eb4394f-000006f6" sourceExternalFilepath="../AI-0132/LIBRARY/lampada.png" sourceLastImported="1242761537" externalFileSize="304930" originalCompressionType="lossless" quality="50" href="lampada.png" bitmapDataHRef="M 3 1320410078.dat" frameRight="10720" frameBottom="13960"/>
@@ -25,6 +26,7 @@
           <Include href="Base/Board.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="Base/Ondas.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="Brilho.xml" loadImmediate="false"/>
+          <Include href="BtValendo.xml"/>
           <Include href="Buttons/BtAvaliar.xml"/>
           <Include href="Buttons/BtNovamente.xml"/>
           <Include href="Buttons/BtnPause.xml" itemIcon="0" loadImmediate="false"/>
@@ -48,21 +50,21 @@
           <Include href="Secao2.xml" loadImmediate="false"/>
           <Include href="Sombra.xml" loadImmediate="false"/>
           <Include href="Symbol 22.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="Telas/AboutScreen.xml"/>
-          <Include href="Telas/InfoScreen.xml"/>
+          <Include href="Telas/AboutScreen132.xml"/>
+          <Include href="Telas/InfoScreen132.xml"/>
           <Include href="Telas/WarningScreen.xml"/>
           <Include href="UpDown.xml"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="mascara" color="#FF4FFF" autoNamed="false" visible="false">
+                    <DOMLayer name="mascara" color="#FF4FFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="MascaraEletrons" name="mascara" centerPoint3DX="320.3" centerPoint3DY="295.5">
+                                        <DOMSymbolInstance libraryItemName="MascaraEletrons" name="mascara" centerPoint3DX="356.3" centerPoint3DY="295.5">
                                              <matrix>
-                                                  <Matrix a="0.761947631835938" tx="133.3" ty="202"/>
+                                                  <Matrix a="0.761947631835938" tx="169.3" ty="202"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="245.4" y="93.5"/>
@@ -90,7 +92,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="MenuBar" name="menuBar" centerPoint3DX="317.5" centerPoint3DY="497.4">
+                                        <DOMSymbolInstance libraryItemName="MenuBar" name="menuBar" selected="true" centerPoint3DX="317.5" centerPoint3DY="497.4">
                                              <matrix>
                                                   <Matrix tx="-1.5" ty="474"/>
                                              </matrix>
@@ -538,6 +540,9 @@
                                                                                                <SolidColor color="#CCCCCC"/>
                                                                                           </FillStyle>
                                                                                           <FillStyle index="2">
+                                                                                               <SolidColor/>
+                                                                                          </FillStyle>
+                                                                                          <FillStyle index="3">
                                                                                                <LinearGradient>
                                                                                                     <matrix>
                                                                                                          <Matrix a="-0.0042724609375" d="0.004608154296875" tx="254.95" ty="79.4"/>
@@ -548,22 +553,19 @@
                                                                                                     <GradientEntry color="#3E3E3E" ratio="0.913725490196078"/>
                                                                                                </LinearGradient>
                                                                                           </FillStyle>
-                                                                                          <FillStyle index="3">
-                                                                                               <SolidColor/>
-                                                                                          </FillStyle>
                                                                                      </fills>
                                                                                      <edges>
-                                                                                          <Edge fillStyle1="2" edges="
-!5157 1524[5167 1535 5167 1555!5167 1555|5167 1644"/>
                                                                                           <Edge fillStyle1="3" edges="
-!5167 1644|5167 1665!5167 1665|5028 1665!5028 1665|5028 1644"/>
+!5157 1524[5167 1535 5167 1555!5167 1555|5167 1644"/>
                                                                                           <Edge fillStyle1="2" edges="
+!5167 1644|5167 1665!5167 1665|5028 1665!5028 1665|5028 1644"/>
+                                                                                          <Edge fillStyle1="3" edges="
 !5028 1644|5028 1555!5028 1555[5028 1535 5036 1524"/>
                                                                                           <Edge fillStyle1="1" edges="
 !5036 1524[5041 1522 5043 1520!5043 1520[5053 1514 5068 1514!5068 1514|5130 1514!5130 1514[5144 1514 5152 1520!5152 1520[5155 1522 5157 1524"/>
-                                                                                          <Edge fillStyle0="2" fillStyle1="1" edges="
+                                                                                          <Edge fillStyle0="3" fillStyle1="1" edges="
 !5157 1524|5036 1524"/>
-                                                                                          <Edge fillStyle0="3" fillStyle1="2" edges="
+                                                                                          <Edge fillStyle0="2" fillStyle1="3" edges="
 !5167 1644|5028 1644"/>
                                                                                      </edges>
                                                                                 </DOMShape>
@@ -838,7 +840,7 @@
                                                                       <Edge fillStyle1="3" strokeStyle="1" edges="
 !12516 4035[12475 3894 12383 3619!12383 3619[12290 3344 12216 3253!12216 3253[12183 3211 12144 3184!12144 3184[12109 3160 12070 3148"/>
                                                                       <Edge fillStyle0="4" fillStyle1="1" edges="
-!12281 3202|12281 3209!12281 3209|12608 3904!12608 3904[12628 3878 12605 3802!12605 3802|12281 3202"/>
+!12605 3802|12281 3202!12281 3202|12281 3209!12281 3209|12608 3904!12608 3904[12628 3878 12605 3802"/>
                                                                       <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
 !12585 3985[12589 3977 12592 3968"/>
                                                                       <Edge strokeStyle="1" edges="
@@ -1233,7 +1235,7 @@
                                                                                      </fills>
                                                                                      <edges>
                                                                                           <Edge fillStyle0="1" edges="
-!737 6450[907 7558 1905 7777!1905 7777|3886 7777!3886 7777|3887 7760!3887 7760[3720 7747 3601 7216!3601 7216[3581 7127 3565 7031!3565 7031|1928 7031!1928 7031[906 7068 737 6450"/>
+!1905 7777|3886 7777!3886 7777|3887 7760!3887 7760[3720 7747 3601 7216!3601 7216[3581 7127 3565 7031!3565 7031|1928 7031!1928 7031[906 7068 737 6450!737 6450[907 7558 1905 7777"/>
                                                                                           <Edge cubics="!737 6450(;850,7189 1240,7631 1905,7777q737 6450Q907 7558q1905 7777);"/>
                                                                                           <Edge cubics="!1928 7031(;1248,7056 850,6863 737,6450q1928 7031Q906 7068q737 6450);"/>
                                                                                           <Edge cubics="!3886 7777(;3886,7777 3887,7760 3887,7760q3886 7777 3887 7760);"/>
@@ -1606,7 +1608,7 @@
                                                                            </strokes>
                                                                            <edges>
                                                                                 <Edge fillStyle0="1" strokeStyle="1" edges="
-!3920 8198|10215 8198!10215 8198|10215 7734!10215 7734|3920 7734!3920 7734|3920 8198"/>
+!3920 7734|3920 8198!3920 8198|10215 8198!10215 8198|10215 7734!10215 7734|3920 7734"/>
                                                                                 <Edge cubics="!10215 7734(;10215,7734 3920,7734 3920,7734q10215 7734 3920 7734);"/>
                                                                                 <Edge cubics="!3920 8198(;3920,8198 10215,8198 10215,8198q3920 8198 10215 8198);"/>
                                                                                 <Edge cubics="!10215 8198(10215,8198;10215,8198 10215,7734 10215,7734q10215 8198 10215 7734);"/>
@@ -1749,10 +1751,10 @@
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!11672 5155[11672 5181 11654 5200!11654 5200[11636 5218 11610 5218!11610 5218[11584 5218 11566 5200!11566 5200[11548 5181 11548 5155!11548 5155[11548 5129 11566 5111!11566 5111[11584 5093 11610 5093!11610 5093[11636 5093 11654 5111!11654
- 5111[11672 5129 11672 5155!11476 5329[11470 5329 11461 5329!11461 5329|11466 5312!11466 5312|11611 5289!11611 5289|11636 5289!11636 5289|11549 5591!11549 5591[11542 5617 11542 5625!11542 5625[11542 5630 11545 5634!11545 5634[11549 5638
- 11554 5638!11554 5638[11561 5638 11568 5632!11568 5632[11587 5616 11614 5574!11614 5574|11628 5583!11628 5583[11564 5695 11492 5695!11492 5695[11464 5695 11448 5680!11448 5680[11431 5664 11431 5640!11431 5640[11431 5624 11439 5600!11439
- 5600|11498 5397!11498 5397[11506 5367 11506 5352!11506 5352[11506 5343 11498 5336!11498 5336[11490 5329 11476 5329"/>
+!11654 5111[11672 5129 11672 5155!11672 5155[11672 5181 11654 5200!11654 5200[11636 5218 11610 5218!11610 5218[11584 5218 11566 5200!11566 5200[11548 5181 11548 5155!11548 5155[11548 5129 11566 5111!11566 5111[11584 5093 11610 5093!11610
+ 5093[11636 5093 11654 5111!11506 5352[11506 5343 11498 5336!11498 5336[11490 5329 11476 5329!11476 5329[11470 5329 11461 5329!11461 5329|11466 5312!11466 5312|11611 5289!11611 5289|11636 5289!11636 5289|11549 5591!11549 5591[11542 5617
+ 11542 5625!11542 5625[11542 5630 11545 5634!11545 5634[11549 5638 11554 5638!11554 5638[11561 5638 11568 5632!11568 5632[11587 5616 11614 5574!11614 5574|11628 5583!11628 5583[11564 5695 11492 5695!11492 5695[11464 5695 11448 5680!11448
+ 5680[11431 5664 11431 5640!11431 5640[11431 5624 11439 5600!11439 5600|11498 5397!11498 5397[11506 5367 11506 5352"/>
                                                        </edges>
                                                   </DOMShape>
                                              </members>
@@ -2126,25 +2128,25 @@
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="517044" publishTime="1349202397"/>
+          <PublishItem publishSize="517112" publishTime="1349202232"/>
+          <PublishItem publishSize="517122" publishTime="1349202081"/>
+          <PublishItem publishSize="121755" publishTime="1349202019"/>
+          <PublishItem publishSize="121755" publishTime="1349201957"/>
+          <PublishItem publishSize="517077" publishTime="1349201364"/>
+          <PublishItem publishSize="517061" publishTime="1349201282"/>
+          <PublishItem publishSize="516572" publishTime="1349201113"/>
+          <PublishItem publishSize="517040" publishTime="1349201053"/>
+          <PublishItem publishSize="516534" publishTime="1349200974"/>
+          <PublishItem publishSize="516563" publishTime="1349200860"/>
+          <PublishItem publishSize="122177" publishTime="1349200766"/>
+          <PublishItem publishSize="517027" publishTime="1349124543"/>
+          <PublishItem publishSize="122120" publishTime="1349124500"/>
+          <PublishItem publishSize="122121" publishTime="1349124462"/>
+          <PublishItem publishSize="122118" publishTime="1349124402"/>
+          <PublishItem publishSize="122121" publishTime="1349124341"/>
+          <PublishItem publishSize="122118" publishTime="1349124291"/>
+          <PublishItem publishSize="122121" publishTime="1349124124"/>
           <PublishItem publishSize="388698" publishTime="1348782730"/>
-          <PublishItem publishSize="388755" publishTime="1348782638"/>
-          <PublishItem publishSize="388744" publishTime="1348782469"/>
-          <PublishItem publishSize="388701" publishTime="1348782181"/>
-          <PublishItem publishSize="388687" publishTime="1348782136"/>
-          <PublishItem publishSize="388654" publishTime="1348782065"/>
-          <PublishItem publishSize="122104" publishTime="1348782026"/>
-          <PublishItem publishSize="388687" publishTime="1348781986"/>
-          <PublishItem publishSize="388657" publishTime="1348781944"/>
-          <PublishItem publishSize="388718" publishTime="1348781813"/>
-          <PublishItem publishSize="386691" publishTime="1348690103"/>
-          <PublishItem publishSize="122194" publishTime="1348690066"/>
-          <PublishItem publishSize="122194" publishTime="1348690014"/>
-          <PublishItem publishSize="386806" publishTime="1348595165"/>
-          <PublishItem publishSize="386750" publishTime="1348595152"/>
-          <PublishItem publishSize="122295" publishTime="1348595139"/>
-          <PublishItem publishSize="122295" publishTime="1348595080"/>
-          <PublishItem publishSize="122293" publishTime="1348594994"/>
-          <PublishItem publishSize="122295" publishTime="1348594917"/>
-          <PublishItem publishSize="135875" publishTime="1348594864"/>
      </publishHistory>
 </DOMDocument>

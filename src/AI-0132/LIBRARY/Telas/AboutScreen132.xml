@@ -1,0 +1,432 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Telas/AboutScreen132" itemID="506b2ad6-00000250" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="AboutScreen132" lastModified="1349200816" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="AboutScreen132">
+      <layers>
+        <DOMLayer name="Instruções" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Buttons/CloseButton" name="closeButton" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.76922607421875" d="0.76922607421875" tx="286.95" ty="-209.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText left="63.45" width="490.1" height="299.7" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-307.05" ty="-95.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Este material foi criado pelo Centro de Ensino e Pesquisa Aplicada (CEPA) do Departamento de Física Experimental do Instituto de Física da Universidade de São Paulo, campus capital, e é distribuido conforme a licença Creative Commons Atribuição - Uso não-comercial - Compartilhamento pela mesma licença 3.0 Brasil (CC BY-NC-SA 3.0). &#xD;&#xD;Isto significa que você pode compartilhar ou remixar esta obra, segundo esta mesma licença, desde que cite o autor original (CEPA) e sua página web (cepa.if.usp.br). Você NÃO pode usar esta obra, nem variações dela, para fins comerciais (para este propósito, entre em contato com o CEPA).</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" size="14" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Créditos:&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Coordenação de produção:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> Beatriz Casaro&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Coordenação pedagógica: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Ivan Ramos Pagnossin&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Criação de conteúdo: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Ivan Ramos Pagnossin&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Gerência de produção: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Ivan Ramos Pagnossin, Maurício Rheilander Klein&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Ilustração:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> Celso Roberto Lourenço&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Programação: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Alexandre Ribeiro Fornari, Arthur Tofani&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Testes:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="Arial-BoldMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> Luciano de Lucena</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.2" face="ArialMT" target="_blank"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMGroup>
+                          <members>
+                            <DOMGroup>
+                              <members>
+                                <DOMShape>
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <BitmapFill bitmapPath="Logos/logocepa.png" bitmapIsClipped="false">
+                                        <matrix>
+                                          <Matrix a="5.49577331542969" d="5.492919921875" tx="-24.55" ty="-182.1"/>
+                                        </matrix>
+                                      </BitmapFill>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="!1158 -2784|-491 -2784!-491 -2784|-491 -3642!-491 -3642|1158 -3642!1158 -3642|1158 -2784"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                        <DOMStaticText width="59" height="5.75" isSelectable="false">
+                          <matrix>
+                            <Matrix a="1.51213073730469" d="1.51165771484375" tx="-26.75" ty="-136.4"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="30.45" y="6.35"/>
+                          </transformationPoint>
+                          <textRuns>
+                            <DOMTextRun>
+                              <characters>CENTRO DE ENSINO  </characters>
+                              <textAttrs>
+                                <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" letterSpacing="0.5" lineSpacing="1.5" size="5" bitmapSize="100" face="Arial-BoldMT"/>
+                              </textAttrs>
+                            </DOMTextRun>
+                          </textRuns>
+                        </DOMStaticText>
+                        <DOMStaticText width="58" height="5.75" isSelectable="false">
+                          <matrix>
+                            <Matrix a="1.51213073730469" d="1.51165771484375" tx="-26.75" ty="-128.45"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="30.45" y="7.1"/>
+                          </transformationPoint>
+                          <textRuns>
+                            <DOMTextRun>
+                              <characters>E PESQUISA APLICADA </characters>
+                              <textAttrs>
+                                <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" lineSpacing="1.5" size="5" face="Arial-BoldMT"/>
+                              </textAttrs>
+                            </DOMTextRun>
+                          </textRuns>
+                        </DOMStaticText>
+                        <DOMGroup>
+                          <members>
+                            <DOMShape>
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" weight="0.5">
+                                    <fill>
+                                      <LinearGradient>
+                                        <matrix>
+                                          <Matrix a="0.05303955078125" d="0.000335693359375" tx="17.35" ty="-137.55"/>
+                                        </matrix>
+                                        <GradientEntry color="#050505" ratio="0"/>
+                                        <GradientEntry color="#AEAEAE" ratio="0.486274509803922"/>
+                                        <GradientEntry ratio="1"/>
+                                      </LinearGradient>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="!-517 -2751|1210 -2751"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                    <DOMStaticText width="34.5" height="5.75" isSelectable="false">
+                      <matrix>
+                        <Matrix a="2.38090515136719" d="2.37974548339844" tx="-27.25" ty="-203"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="30.25" y="6.3"/>
+                      </transformationPoint>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Realização:  </characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" letterSpacing="0.5" lineSpacing="1.5" size="5" bitmapSize="100" face="Arial-BoldMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="48.95" height="5.75" isSelectable="false">
+                      <matrix>
+                        <Matrix a="2.38090515136719" d="2.37974548339844" tx="-245.6" ty="-203"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="30.25" y="6.3"/>
+                      </transformationPoint>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Patrocínio:  </characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" letterSpacing="0.5" lineSpacing="1.5" size="5" bitmapSize="100" face="Arial-BoldMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMBitmapInstance libraryItemName="Logos/Bitmap 4">
+                      <matrix>
+                        <Matrix a="0.747756958007813" d="0.747756958007813" tx="-247.25" ty="-182.7"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="85.5" y="44.55"/>
+                      </transformationPoint>
+                    </DOMBitmapInstance>
+                    <DOMStaticText width="37.05" height="5.75" isSelectable="false">
+                      <matrix>
+                        <Matrix a="2.38090515136719" d="2.37974548339844" tx="153.75" ty="-203"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="30.2" y="6.3"/>
+                      </transformationPoint>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Apoio:  </characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" rotation="true" letterSpacing="0.5" lineSpacing="1.5" size="5" bitmapSize="100" face="Arial-BoldMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMGroup>
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <matrix>
+                                <Matrix a="1.09477233886719" d="1.09477233886719" tx="155.15" ty="-168.5"/>
+                              </matrix>
+                              <transformationPoint>
+                                <Point x="42.15" y="17.4"/>
+                              </transformationPoint>
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#727476"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle1="1" edges="!1682 465|1411 465!1411 465|1411 696!1411 696|1156 697!1156 697|1156 648!1156 648|1361 647!1361 647|1361 167!1361 167|1411 167!1411 167|1411 416!1411 416|1633 416!1633 416|1633 140!1633 140[1611 95 1584 75!1584 75[1565 60 1532 51!1532
+ 51[1449 48 1387 51!1387 51[1298 51 1240 49!1240 49[1203 58 1178 81!1178 81[1159 101 1139 133!1139 133|1139 164!1139 164|1089 164!1089 164|1089 133!1089 133[1065 91 1048 77!1048 77[1026 56 992 51!992 51|842 51!842 51[789 49 691 49!691
+ 49|670 55!670 55[660 56 651 64!651 64[609 88 596 137!596 137|595 246!595 246|858 517!858 517|824 552!824 552|546 265!546 265|546 131!546 131|547 128!547 128[565 57 626 20!626 20|654 9!654 9[669 3 685 0!685 0|842 0!842 0[858 0 865 2!865
+ 2|997 2!997 2[1048 9 1082 41!1082 41[1101 58 1115 81!1115 81[1129 58 1145 45!1145 45[1179 13 1231 2!1231 2|1234 0!1234 0|1237 0!1237 0[1296 2 1385 2!1385 2[1450 -1 1537 2!1537 2|1542 2!1542 2[1585 14 1614 38!1614 38[1653 67 1679 124
+!1679 124|1682 130!1682 130|1682 465"/>
+                                <Edge fillStyle0="1" edges="
+!824 182|1087 448!1087 448|1087 558!1087 558|1083 573!1083 573|1073 591!1073 591[1048 634 1002 645!1002 645|842 645!842 645[745 645 688 647!688 647[648 634 628 615!628 615[611 601 596 565!596 565|595 532!595 532|546 532!546 532|544 563
+!544 563|542 569!542 569[524 602 508 618!508 618[488 640 458 645!458 645|135 645!135 645[130 644 115 638!115 638[102 632 97 628!97 628[56 603 49 559!49 559|49 52!49 52|272 52!272 52|272 530!272 530|321 530!321 530|321 52!321 52|542 52
+!542 52|542 3!542 3|0 2!0 2|0 566!0 566[12 634 71 670!71 670[93 683 97 684!97 684[116 691 125 693!125 693|125 694!125 694|462 696!462 696|465 694!465 694[510 687 542 655!542 655|544 653!544 653[562 631 569 619!569 619[580 637 595 651
+!595 651[623 679 678 694!678 694|681 696!681 696|685 696!685 696[743 694 842 694!842 694|845 694!845 694[921 697 1005 694!1005 694|1010 694!1010 694[1076 682 1115 617!1115 617|1128 593!1128 593|1138 563!1138 563|1136 560!1136 560|1136
+ 428!1136 428|860 147!860 147|824 182"/>
+                                <Edge cubics="!542 52(;542,52 321,52 321,52q542 52 321 52);"/>
+                                <Edge cubics="!321 52(;321,52 321,530 321,530q321 52 321 530);"/>
+                                <Edge cubics="!321 530(;321,530 272,530 272,530q321 530 272 530);"/>
+                                <Edge cubics="!272 530(;272,530 272,52 272,52q272 530 272 52);"/>
+                                <Edge cubics="!272 52(;272,52 49,52 49,52q272 52 49 52);"/>
+                                <Edge cubics="!49 52(;49,52 49,559 49,559q49 52 49 559);"/>
+                                <Edge cubics="!49 559(;53,585 69,611 97,628q49 559Q56 603q97 628);"/>
+                                <Edge cubics="!97 628(;102,632 110,635 115,638q97 628Q102 632q115 638);"/>
+                                <Edge cubics="!115 638(;122,641 128,644 135,645q115 638Q130 644q135 645);"/>
+                                <Edge cubics="!458 645(;480,641 495,632 508,618q458 645Q488 640q508 618);"/>
+                                <Edge cubics="!508 618(;521,605 531,589 542,569q508 618Q524 602q542 569);"/>
+                                <Edge cubics="!542 655(;521,676 497,689 465,694q542 655Q510 687q465 694);"/>
+                                <Edge cubics="!465 694(;465,694 462,696 462,696q465 694 462 696);"/>
+                                <Edge cubics="!125 694(;125,694 125,693 125,693q125 694 125 693);"/>
+                                <Edge cubics="!125 693(;115,691 105,687 97,684q125 693Q116 691q97 684);"/>
+                                <Edge cubics="!97 684(;86,680 78,674 71,670q97 684Q93 683q71 670);"/>
+                                <Edge cubics="!71 670(;29,644 7,605 0,566q71 670Q12 634q0 566);"/>
+                                <Edge cubics="!842 645(;793,645 745,645 688,647q842 645Q745 645q688 647);"/>
+                                <Edge cubics="!688 647(;661,638 642,628 628,615q688 647Q648 634q628 615);"/>
+                                <Edge cubics="!628 615(;615,604 605,586 596,565q628 615Q611 601q596 565);"/>
+                                <Edge cubics="!596 565(;596,565 595,532 595,532q596 565 595 532);"/>
+                                <Edge cubics="!595 532(;595,532 546,532 546,532q595 532 546 532);"/>
+                                <Edge cubics="!546 532(;546,532 544,563 544,563q546 532 544 563);"/>
+                                <Edge cubics="!544 563(;543,565 543,568 542,569q544 563 542 569);"/>
+                                <Edge cubics="!542 655(;543,654 543,653 544,653q542 655 544 653);"/>
+                                <Edge cubics="!544 653(;553,642 562,631 569,619q544 653Q562 631q569 619);"/>
+                                <Edge cubics="!569 619(;576,631 585,642 595,651q569 619Q580 637q595 651);"/>
+                                <Edge cubics="!595 651(;615,671 641,684 678,694q595 651Q623 679q678 694);"/>
+                                <Edge cubics="!678 694(;678,694 681,696 681,696q678 694 681 696);"/>
+                                <Edge cubics="!681 696(;681,696 685,696 685,696q681 696 685 696);"/>
+                                <Edge cubics="!685 696(;743,694 792,694 842,694q685 696Q743 694q842 694);"/>
+                                <Edge cubics="!842 51(;789,49 739,49 691,49q842 51Q789 49q691 49);"/>
+                                <Edge cubics="!691 49(;684,51 677,52 670,55q691 49 670 55);"/>
+                                <Edge cubics="!670 55(;662,56 657,59 651,64q670 55Q660 56q651 64);"/>
+                                <Edge cubics="!651 64(;621,81 603,110 596,137q651 64Q609 88q596 137);"/>
+                                <Edge cubics="!596 137(;596,137 595,246 595,246q596 137 595 246);"/>
+                                <Edge cubics="!546 131(;546,131 547,128 547,128q546 131 547 128);"/>
+                                <Edge cubics="!547 128(;557,88 583,46 626,20q547 128Q565 57q626 20);"/>
+                                <Edge cubics="!626 20(;635,16 644,12 654,9q626 20 654 9);"/>
+                                <Edge cubics="!654 9(;664,5 674,2 685,0q654 9Q669 3q685 0);"/>
+                                <Edge cubics="!842 694(;842,694 844,694 845,694q842 694 845 694);"/>
+                                <Edge cubics="!845 694(;896,696 948,696 1005,694q845 694Q921 697q1005 694);"/>
+                                <Edge cubics="!1010 694(;1053,686 1092,655 1115,617q1010 694Q1076 682q1115 617);"/>
+                                <Edge cubics="!1115 617(;1120,609 1123,601 1128,593q1115 617 1128 593);"/>
+                                <Edge cubics="!1138 563(;1138,563 1136,560 1136,560q1138 563 1136 560);"/>
+                                <Edge cubics="!1087 448(;1087,448 1087,558 1087,558q1087 448 1087 558);"/>
+                                <Edge cubics="!1087 558(;1086,563 1084,569 1083,573q1087 558 1083 573);"/>
+                                <Edge cubics="!1083 573(;1080,579 1077,585 1073,591q1083 573 1073 591);"/>
+                                <Edge cubics="!1073 591(;1057,618 1031,638 1002,645q1073 591Q1048 634q1002 645);"/>
+                                <Edge cubics="!1156 648(;1156,648 1361,647 1361,647p1156 648q1361 647);"/>
+                                <Edge cubics="!1361 167(;1361,167 1411,167 1411,167p1361 167q1411 167);"/>
+                                <Edge cubics="!1411 167(;1411,167 1411,416 1411,416p1411 167q1411 416);"/>
+                                <Edge cubics="!1411 416(;1411,416 1633,416 1633,416p1411 416q1633 416);"/>
+                                <Edge cubics="!1633 416(;1633,416 1633,140 1633,140p1633 416q1633 140);"/>
+                                <Edge cubics="!1633 140(;1617,108 1601,88 1584,75q1633 140Q1611 95q1584 75);"/>
+                                <Edge cubics="!1584 75(;1568,62 1551,56 1532,51q1584 75Q1565 60q1532 51);"/>
+                                <Edge cubics="!1532 51(;1475,49 1430,49 1387,51q1532 51Q1449 48q1387 51);"/>
+                                <Edge cubics="!1387 51(;1342,51 1298,51 1240,49q1387 51Q1298 51q1240 49);"/>
+                                <Edge cubics="!1240 49(;1211,56 1192,68 1178,81q1240 49Q1203 58q1178 81);"/>
+                                <Edge cubics="!1178 81(;1164,95 1151,113 1139,133q1178 81Q1159 101q1139 133);"/>
+                                <Edge cubics="!1139 133(;1139,133 1139,164 1139,164q1139 133 1139 164);"/>
+                                <Edge cubics="!1139 164(;1139,164 1089,164 1089,164q1139 164 1089 164);"/>
+                                <Edge cubics="!1089 164(;1089,164 1089,133 1089,133q1089 164 1089 133);"/>
+                                <Edge cubics="!1089 133(;1076,110 1063,89 1048,77q1089 133Q1065 91q1048 77);"/>
+                                <Edge cubics="!1048 77(;1034,64 1017,55 992,51q1048 77Q1026 56q992 51);"/>
+                                <Edge cubics="!842 0(;850,0 858,0 865,2q842 0Q858 0q865 2);"/>
+                                <Edge cubics="!997 2(;1034,7 1060,20 1082,41q997 2Q1048 9q1082 41);"/>
+                                <Edge cubics="!1082 41(;1094,52 1105,65 1115,81q1082 41Q1101 58q1115 81);"/>
+                                <Edge cubics="!1115 81(;1123,68 1133,55 1145,45q1115 81Q1129 58q1145 45);"/>
+                                <Edge cubics="!1145 45(;1166,25 1192,10 1231,2q1145 45Q1179 13q1231 2);"/>
+                                <Edge cubics="!1231 2(;1231,2 1234,0 1234,0q1231 2 1234 0);"/>
+                                <Edge cubics="!1234 0(;1234,0 1237,0 1237,0q1234 0 1237 0);"/>
+                                <Edge cubics="!1237 0(;1296,2 1341,2 1385,2q1237 0Q1296 2q1385 2);"/>
+                                <Edge cubics="!1385 2(;1431,0 1476,0 1537,2q1385 2Q1450 -1q1537 2);"/>
+                                <Edge cubics="!1542 2(;1567,9 1591,19 1614,38q1542 2Q1585 14q1614 38);"/>
+                                <Edge cubics="!1614 38(;1637,55 1660,82 1679,124q1614 38Q1653 67q1679 124);"/>
+                                <Edge cubics="!1679 124(;1679,124 1682,130 1682,130q1679 124 1682 130);"/>
+                                <Edge cubics="!1156 697(;1156,697 1156,648 1156,648q1156 697 1156 648);"/>
+                                <Edge cubics="!1682 130(;1682,130 1682,465 1682,465q1682 130 1682 465);"/>
+                                <Edge cubics="!1537 2(;1537,2 1542,2 1542,2q1537 2 1542 2);"/>
+                                <Edge cubics="!860 147(;860,147 824,182 824,182q860 147 824 182);"/>
+                                <Edge cubics="!992 51(;992,51 842,51 842,51q992 51 842 51);"/>
+                                <Edge cubics="!865 2(865,2;865,2 997,2 997,2q865 2 997 2);"/>
+                                <Edge cubics="!1136 428(;1136,428 860,147 860,147q1136 428 860 147);"/>
+                                <Edge cubics="!824 182(;824,182 1087,448 1087,448q824 182 1087 448);"/>
+                                <Edge cubics="!1128 593(;1128,593 1138,563 1138,563q1128 593 1138 563);"/>
+                                <Edge cubics="!824 552(;824,552 858,517 858,517q824 552 858 517);"/>
+                                <Edge cubics="!1005 694(;1005,694 1010,694 1010,694q1005 694 1010 694);"/>
+                                <Edge cubics="!1002 645(;1002,645 842,645 842,645q1002 645 842 645);"/>
+                                <Edge cubics="!1411 465(;1411,465 1411,696 1411,696q1411 465 1411 696);"/>
+                                <Edge cubics="!1411 696(;1411,696 1156,697 1156,697q1411 696 1156 697);"/>
+                                <Edge cubics="!1136 560(;1136,560 1136,428 1136,428q1136 560 1136 428);"/>
+                                <Edge cubics="!1361 647(;1361,647 1361,167 1361,167q1361 647 1361 167);"/>
+                                <Edge cubics="!542 52(;542,52 542,3 542,3q542 52 542 3);"/>
+                                <Edge cubics="!546 265(;546,265 546,131 546,131q546 265 546 131);"/>
+                                <Edge cubics="!135 645(;135,645 458,645 458,645q135 645 458 645);"/>
+                                <Edge cubics="!462 696(;462,696 125,694 125,694q462 696 125 694);"/>
+                                <Edge cubics="!0 566(;0,566 0,2 0,2q0 566 0 2);"/>
+                                <Edge cubics="!0 2(;0,2 542,3 542,3q0 2 542 3);"/>
+                                <Edge cubics="!824 552(;824,552 546,265 546,265q824 552 546 265);"/>
+                                <Edge cubics="!685 0(;685,0 842,0 842,0q685 0 842 0);"/>
+                                <Edge cubics="!595 246(;595,246 858,517 858,517q595 246 858 517);"/>
+                                <Edge cubics="!1682 465(;1682,465 1411,465 1411,465q1682 465 1411 465);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Board" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Base/Board" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="0.25" y="0.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

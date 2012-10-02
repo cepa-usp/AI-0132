@@ -86,7 +86,7 @@ package
 		
 		public function evaluate():void 
 		{
-			trace("passou 00")
+			
 			
 			
 			var count:Number = qtde;			
@@ -101,23 +101,34 @@ package
 			exp_j.dividir(this.areaSecao);
 			
 			
-			score += (match(exp_i.mantissa , answr_i.mantissa, 0)?.25:0);
-			score += (match(exp_i.ordem , answr_i.ordem, 0)?.25:0);
-			score += (match(exp_j.mantissa , answr_j.mantissa, 0)?.25:0);
-			score += (match(exp_j.ordem , answr_j.ordem, 0)?.25:0);
+			score += (match(exp_i.mantissa , answr_i.mantissa, 0.1)?.25:0);
+			score += (match(exp_i.ordem , answr_i.ordem, 0.1)?.25:0);
+			score += (match(exp_j.mantissa , answr_j.mantissa, 0.1)?.25:0);
+			score += (match(exp_j.ordem , answr_j.ordem, 0.1)?.25:0);
 			
 			acertouCorrente = false;
-			if (match(exp_i.mantissa , answr_i.mantissa, 0) && match(exp_i.ordem , answr_i.ordem, 0)) acertouCorrente = true;
+			if (match(exp_i.mantissa , answr_i.mantissa, 0.1) && match(exp_i.ordem , answr_i.ordem, 0.1)) acertouCorrente = true;
 
 			acertouDensidade = false;
-			if (match(exp_j.mantissa , answr_j.mantissa, 0) && match(exp_j.ordem , answr_j.ordem, 0)) acertouDensidade = true;
+			if (match(exp_j.mantissa , answr_j.mantissa, 0.1) && match(exp_j.ordem , answr_j.ordem, 0.1)) acertouDensidade = true;
 
-			score *= 100;
+			//score *= 100;
 
 		}
 		
+		public function isIntoToleranceIntervalPercent(val1:Number, val2:Number, tolerance:Number):Boolean {
+			var tolmin:Number = val2 - Math.abs(val2 *  tolerance);
+			var tolmax:Number = val2 + Math.abs(val2 *  tolerance);
+			var r:Boolean = (val1 > (tolmin) && val1 < (tolmax));
+			return r
+		}
+		
+		public function signal(val:Number):Boolean {
+			return (val >= 0);
+		}		
+		
 		private function match(v1:Number, v2:Number, tolerance:Number):Boolean {
-			return (v1 == v2) 
+			return isIntoToleranceIntervalPercent(v1, v2, tolerance);
 		}
 		
 		private function notCi2Obj(nc:NotCi):Object { 

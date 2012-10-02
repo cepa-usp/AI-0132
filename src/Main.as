@@ -1,10 +1,15 @@
 ﻿package 
 {
 	import cepa.ai.AI;
+	import cepa.ai.AIConstants;
+	import cepa.ai.AIInstance;
 	import cepa.ai.AIObserver;
+	import cepa.ai.IPlayInstance;
 	import cepa.eval.ProgressiveEvaluator;
 	import cepa.eval.StatsScreen;
 	import cepa.utils.ToolTip;
+	import com.adobe.serialization.json.JSON;
+	import com.eclecticdesignstudio.motion.Actuate;
 	import fl.motion.easing.Elastic;
 	import fl.transitions.easing.None;
 	import fl.transitions.Tween;
@@ -30,7 +35,7 @@
 	 * ...
 	 * @author Alexandre
 	 */
-	public class Main extends MovieClip implements AIObserver
+	public class Main extends MovieClip implements AIObserver, AIInstance
 	{
 		//Camadas:
 		private var background_layer:Sprite;
@@ -69,6 +74,8 @@
 			ai = new AI(this);
 			ai.container.setMessageTextVisible(false);
 			ai.evaluator = new ProgressiveEvaluator(ai);
+			ai.container.setInfoScreen(new InfoScreen132());
+			ai.container.setAboutScreen(new AboutScreen132());
 			statsScreen = new StatsScreen(ProgressiveEvaluator(ai.evaluator), ai);
 			ai.addObserver(this);
 			
@@ -110,8 +117,8 @@
 			addChild(menuBar);
 			
 			warningScreen = new WarningScreen();
-			stage.addChild(warningScreen);
-			stage.setChildIndex(warningScreen, stage.numChildren - 1);
+			//stage.addChild(warningScreen);
+			//stage.setChildIndex(warningScreen, stage.numChildren - 1);
 			
 			
 		}
@@ -161,6 +168,11 @@
 		
 		private function configMenuBar():void 
 		{
+			
+			btValendoNota.gotoAndStop(1);
+			btValendoNota.addEventListener(MouseEvent.MOUSE_OVER, function(e:MouseEvent):void { btValendoNota.gotoAndStop(2) } );
+			btValendoNota.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent):void { btValendoNota.gotoAndStop(1) } );
+
 			menuBar.btAvaliar.gotoAndStop(1);
 			menuBar.btAvaliar.addEventListener(MouseEvent.MOUSE_OVER, function(e:MouseEvent):void { menuBar.btAvaliar.gotoAndStop(2) } );
 			menuBar.btAvaliar.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent):void { menuBar.btAvaliar.gotoAndStop(1) } );
@@ -175,6 +187,7 @@
 			
 			menuBar.answerCorrente.visible = false;
 			menuBar.answerDensidade.visible = false;
+			btValendoNota.visible = true;
 			
 			
 			
@@ -198,8 +211,17 @@
 			//eventListener do botão reset da moldura.
 			//btnReset.addEventListener(MouseEvent.CLICK, reset);
 			menuBar.btNovamente.addEventListener(MouseEvent.CLICK, reset);
+			btValendoNota.addEventListener(MouseEvent.CLICK, onValendoNotaClick);
 			menuBar.btAvaliar.addEventListener(MouseEvent.CLICK, aval);
 			menuBar.btVerResposta.addEventListener(MouseEvent.CLICK, showHideAnswer);
+		}
+		
+		private function onValendoNotaClick(e:MouseEvent):void 
+		{
+			ProgressiveEvaluator(ai.evaluator).currentPlayMode = AIConstants.PLAYMODE_EVALUATE;
+			Actuate.tween(btValendoNota, 1, { alpha:0 } );
+			reset(null);
+			
 		}
 		
 		private function showHideAnswer(e:MouseEvent):void 
@@ -346,6 +368,7 @@
 				
 				
 				menuBar.btAvaliar.visible = false;
+				//menuBar.btValendoNota.visible = true;
 				menuBar.btVerResposta.visible = true;
 				menuBar.btVerResposta.verexerc.visible = false;
 				menuBar.btVerResposta.verresp.visible = true;
@@ -373,6 +396,7 @@
 			menuBar.btVerResposta.visible = false;
 			menuBar.btNovamente.visible = false;
 			menuBar.btAvaliar.visible = true;
+			//btValendoNota.visible = false;
 			menuBar.answerCorrente.visible = false;
 			menuBar.answerDensidade.visible = false;
 		}
@@ -687,6 +711,28 @@
 		public function onScormConnectionError():void 
 		{
 			
+		}
+		
+		/* INTERFACE cepa.ai.AIInstance */
+		
+		
+		public function getData():Object 
+		{
+			var obj:Object = new Object();
+			//obj.mode = mode;
+			return obj;
+		}
+		
+		public function readData(obj:Object) 
+		{
+			//ai.debugScreen.msg("ativ:" + JSON.encode(obj))			
+			//mode = obj.mode;
+			//changeState(STATE_RESET);
+		}
+		
+		public function createNewPlayInstance():IPlayInstance 
+		{
+			return new AI132PlayInstance();
 		}
 				
 		

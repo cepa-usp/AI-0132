@@ -1,28 +1,7 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Telas/WarningScreen" itemID="4eba7503-0000026f" linkageExportForAS="true" linkageClassName="WarningScreen" lastModified="1321037798">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Telas/WarningScreen" itemID="4eba7503-0000026f" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="WarningScreen" lastModified="1349200545" isSpriteSubclass="true">
   <timeline>
-    <DOMTimeline name="WarningScreen">
+    <DOMTimeline name="WarningScreen" currentFrame="9">
       <layers>
-        <DOMLayer name="actions" color="#9933CC" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" name="BEGIN" labelType="name" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[stop();
-this.visible = true;]]></script>
-              </Actionscript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="1" duration="8" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="9" name="END" labelType="name" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[this.visible = false;
-stop();]]></script>
-              </Actionscript>
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
         <DOMLayer name="Instruções" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -65,18 +44,14 @@ stop();]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Board" color="#FF800A" autoNamed="false" animationType="motion object">
+        <DOMLayer name="Board" color="#FF800A" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500391" xformPtYOffsetPct="0.500625" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,36.4868" next="0,36.4868" previous="0,36.4868" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,36.4868" next="0,36.4868" previous="0,36.4868" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+            <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Base/Board" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="Base/Board" selected="true" symbolType="graphic" loop="loop">
                   <transformationPoint>
                     <Point x="0.25" y="0.3"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
