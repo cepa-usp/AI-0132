@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuBar" itemID="5061eb9c-00000208" linkageExportForAS="true" linkageClassName="MenuBar" lastModified="1349202776" lastUniqueIdentifier="13">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuBar" itemID="5061eb9c-00000208" linkageExportForAS="true" linkageClassName="MenuBar" lastModified="1350416521" lastUniqueIdentifier="14">
   <timeline>
     <DOMTimeline name="MenuBar">
       <layers>
@@ -212,9 +212,9 @@
                     <Point x="-0.2" y="-0.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Buttons/BtVerResposta" name="btVerResposta" centerPoint3DX="567.65" centerPoint3DY="175.95">
+                <DOMSymbolInstance libraryItemName="Buttons/BtVerResposta" name="btVerResposta" centerPoint3DX="567.65" centerPoint3DY="170.95">
                   <matrix>
-                    <Matrix tx="537.65" ty="176"/>
+                    <Matrix tx="537.65" ty="171"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="29.8" y="-0.05"/>
@@ -246,9 +246,9 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMSymbolInstance libraryItemName="BtValendo" centerPoint3DX="569.65" centerPoint3DY="30.95">
+                <DOMSymbolInstance libraryItemName="BtValendoNota" name="btValendoNota" centerPoint3DX="569.65" centerPoint3DY="98.95">
                   <matrix>
-                    <Matrix tx="507.6" ty="20"/>
+                    <Matrix tx="507.6" ty="88"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="61.85" y="10.95"/>

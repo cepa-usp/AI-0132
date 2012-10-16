@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="700" height="480" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" viewAngle3D="59.3117946966027" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="700" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" viewAngle3D="59.3117946966027" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Base" itemID="4cafb00f-000001ee"/>
           <DOMFolderItem name="Botões" itemID="4eb82563-00000380"/>
@@ -8,13 +8,13 @@
           <DOMFolderItem name="Telas" itemID="4eb042dd-0000026e" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 3" itemID="4ebd3c63-00000243" font="BookAntiqua" size="0" id="3" sourceLastImported="1321024611" embeddedCharacters="iIjJ"/>
-          <DOMFontItem name="Font 2" itemID="4eba7a3d-00000279" font="Arial-BoldMT" size="0" id="2" sourceLastImported="1320843837" embeddedCharacters=".,*-" embedRanges="3"/>
           <DOMFontItem name="Font 1" itemID="4eb291d9-00000213" font="ArialMT" size="0" id="1" sourceLastImported="1320325593" embeddedCharacters=",." embedRanges="3"/>
+          <DOMFontItem name="Font 2" itemID="4eba7a3d-00000279" font="Arial-BoldMT" size="0" id="2" sourceLastImported="1320843837" embeddedCharacters=".,*-" embedRanges="3"/>
+          <DOMFontItem name="Font 3" itemID="4ebd3c63-00000243" font="BookAntiqua" size="0" id="3" sourceLastImported="1321024611" embeddedCharacters="iIjJ"/>
      </fonts>
      <media>
           <DOMBitmapItem name="Logos/Bitmap 4" itemID="4eaaa12d-00000715" sourceLastImported="1319805229" originalCompressionType="lossless" quality="50" href="Logos/Bitmap 4" bitmapDataHRef="M 4 1319805229.dat" frameRight="3420" frameBottom="1780"/>
-          <DOMBitmapItem name="Bitmap 7" itemID="506b32b4-0000028d" sourceLastImported="1349202612" originalCompressionType="lossless" quality="50" href="Bitmap 7" bitmapDataHRef="M 7 1349202612.dat" frameRight="3440" frameBottom="720"/>
+          <DOMBitmapItem name="Bitmap 7" itemID="506b32b4-0000028d" sourceLastImported="1349202612" originalCompressionType="lossless" quality="50" href="Bitmap 7" bitmapDataHRef="M 7 1349202612.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="bt_certo.png" itemID="4eb94a68-0000024f" sourceExternalFilepath="../AI-0132/LIBRARY/bt_certo.png" sourceLastImported="1313529746" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="bt_certo.png" bitmapDataHRef="M 5 1320760869.dat" frameRight="580" frameBottom="580"/>
           <DOMBitmapItem name="bt_errado.png" itemID="4eb94a68-00000250" sourceExternalFilepath="../AI-0132/LIBRARY/bt_errado.png" sourceLastImported="1313529746" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="bt_errado.png" bitmapDataHRef="M 6 1320760869.dat" frameRight="580" frameBottom="580"/>
           <DOMBitmapItem name="lampada.png" itemID="4eb4394f-000006f6" sourceExternalFilepath="../AI-0132/LIBRARY/lampada.png" sourceLastImported="1242761537" externalFileSize="304930" originalCompressionType="lossless" quality="50" href="lampada.png" bitmapDataHRef="M 3 1320410078.dat" frameRight="10720" frameBottom="13960"/>
@@ -22,38 +22,38 @@
           <DOMBitmapItem name="Logos/logocepa.png" itemID="4c913bb5-0000029a" sourceExternalFilepath="../../../Desktop/logocepa.png" sourceLastImported="1284586376" originalCompressionType="lossless" quality="50" href="Logos/logocepa.png" bitmapDataHRef="M 1 1284586421.dat" frameRight="6000" frameBottom="3860"/>
      </media>
      <symbols>
-          <Include href="Animation.xml"/>
-          <Include href="Base/Board.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="Base/Ondas.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="Brilho.xml" loadImmediate="false"/>
-          <Include href="BtValendo.xml"/>
-          <Include href="Buttons/BtAvaliar.xml"/>
-          <Include href="Buttons/BtNovamente.xml"/>
-          <Include href="Buttons/BtnPause.xml" itemIcon="0" loadImmediate="false"/>
-          <Include href="Buttons/BtnPlay.xml" itemIcon="0" loadImmediate="false"/>
-          <Include href="Buttons/BtnResetCron.xml" itemIcon="0" loadImmediate="false"/>
-          <Include href="Buttons/BtVerResposta.xml"/>
-          <Include href="Buttons/CloseButton.xml" itemIcon="0" loadImmediate="false"/>
-          <Include href="Buttons/VerExerc.xml"/>
-          <Include href="Buttons/VerResposta.xml"/>
-          <Include href="CertoErrado.xml"/>
-          <Include href="Eletron.xml"/>
-          <Include href="Fios.xml" loadImmediate="false"/>
-          <Include href="lampada.xml" loadImmediate="false"/>
-          <Include href="Luz_fraca.xml" loadImmediate="false"/>
-          <Include href="MascaraEletrons.xml"/>
-          <Include href="MCarea.xml" loadImmediate="false"/>
-          <Include href="MenuBar.xml"/>
-          <Include href="Objects/Cronometro.xml"/>
-          <Include href="PointingArrow.xml"/>
-          <Include href="Secao1.xml" loadImmediate="false"/>
-          <Include href="Secao2.xml" loadImmediate="false"/>
-          <Include href="Sombra.xml" loadImmediate="false"/>
-          <Include href="Symbol 22.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="Telas/AboutScreen132.xml"/>
-          <Include href="Telas/InfoScreen132.xml"/>
-          <Include href="Telas/WarningScreen.xml"/>
-          <Include href="UpDown.xml"/>
+          <Include href="Animation.xml" itemID="4eb2b5ff-0000021b" lastModified="1320843764"/>
+          <Include href="Base/Board.xml" itemIcon="1" loadImmediate="false" itemID="4eba74b3-00000258" lastModified="1319804942"/>
+          <Include href="Base/Ondas.xml" itemIcon="1" loadImmediate="false" itemID="4eba74b3-00000259" lastModified="1298036295"/>
+          <Include href="Brilho.xml" loadImmediate="false" itemID="4eb96bce-0000132e" lastModified="1320774606"/>
+          <Include href="BtValendoNota.xml" itemID="507dae72-000002e9" lastModified="1350413938"/>
+          <Include href="Buttons/BtAvaliar.xml" itemID="4e933c62-000001d3" lastModified="1319722515"/>
+          <Include href="Buttons/BtNovamente.xml" itemID="4e9f0828-00000227" lastModified="1349202636"/>
+          <Include href="Buttons/BtnPause.xml" itemIcon="0" loadImmediate="false" itemID="4eb28f0a-000001f5" lastModified="1320758102"/>
+          <Include href="Buttons/BtnPlay.xml" itemIcon="0" loadImmediate="false" itemID="4eb28df5-000001e7" lastModified="1320758085"/>
+          <Include href="Buttons/BtnResetCron.xml" itemIcon="0" loadImmediate="false" itemID="4eb28f8d-00000206" lastModified="1320758113"/>
+          <Include href="Buttons/BtVerResposta.xml" itemID="4ea06365-000001e3" lastModified="1320691329"/>
+          <Include href="Buttons/CloseButton.xml" itemIcon="0" loadImmediate="false" itemID="4eba74b3-00000257" lastModified="1298036208"/>
+          <Include href="Buttons/VerExerc.xml" itemID="4ea1ce7c-00000273" lastModified="1319482222"/>
+          <Include href="Buttons/VerResposta.xml" itemID="4ea1ce70-0000026f" lastModified="1319226992"/>
+          <Include href="CertoErrado.xml" itemID="4eb94a68-0000024e" lastModified="1320766121"/>
+          <Include href="Eletron.xml" itemID="4eb2b629-00000220" lastModified="1320774703"/>
+          <Include href="Fios.xml" loadImmediate="false" itemID="4eb7df46-00000752" lastModified="1321033228"/>
+          <Include href="lampada.xml" loadImmediate="false" itemID="4eb807c1-000007f2" lastModified="1320777534"/>
+          <Include href="Luz_fraca.xml" loadImmediate="false" itemID="4eb822e4-0000081a" lastModified="1320690404"/>
+          <Include href="MascaraEletrons.xml" itemID="4eb8191a-00000266" lastModified="1320758646"/>
+          <Include href="MCarea.xml" loadImmediate="false" itemID="4eba79ef-00000275" lastModified="1321021751"/>
+          <Include href="MenuBar.xml" itemID="5061eb9c-00000208" lastModified="1350416521"/>
+          <Include href="Objects/Cronometro.xml" itemID="4eb28d9a-000001de" lastModified="1321037906"/>
+          <Include href="PointingArrow.xml" itemID="4ea985e6-00000338" lastModified="1320077849"/>
+          <Include href="Secao1.xml" loadImmediate="false" itemID="4eb93004-00000769" lastModified="1320775302"/>
+          <Include href="Secao2.xml" loadImmediate="false" itemID="4eb92ff8-00000768" lastModified="1320775297"/>
+          <Include href="Sombra.xml" loadImmediate="false" itemID="4eb7f845-0000075e" lastModified="1320752400"/>
+          <Include href="Symbol 22.xml" itemIcon="1" loadImmediate="false" itemID="4f3297ce-00000d8e" lastModified="1328715726"/>
+          <Include href="Telas/AboutScreen132.xml" itemID="506b2ad6-00000250" lastModified="1349200816"/>
+          <Include href="Telas/InfoScreen132.xml" itemID="506b2ab0-0000024f" lastModified="1349200607"/>
+          <Include href="Telas/WarningScreen.xml" itemID="4eba7503-0000026f" lastModified="1349200545"/>
+          <Include href="UpDown.xml" itemID="4d5d2d17-00000351" lastModified="1303760628"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -840,7 +840,7 @@
                                                                       <Edge fillStyle1="3" strokeStyle="1" edges="
 !12516 4035[12475 3894 12383 3619!12383 3619[12290 3344 12216 3253!12216 3253[12183 3211 12144 3184!12144 3184[12109 3160 12070 3148"/>
                                                                       <Edge fillStyle0="4" fillStyle1="1" edges="
-!12605 3802|12281 3202!12281 3202|12281 3209!12281 3209|12608 3904!12608 3904[12628 3878 12605 3802"/>
+!12281 3202|12281 3209!12281 3209|12608 3904!12608 3904[12628 3878 12605 3802!12605 3802|12281 3202"/>
                                                                       <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
 !12585 3985[12589 3977 12592 3968"/>
                                                                       <Edge strokeStyle="1" edges="
@@ -1235,7 +1235,7 @@
                                                                                      </fills>
                                                                                      <edges>
                                                                                           <Edge fillStyle0="1" edges="
-!1905 7777|3886 7777!3886 7777|3887 7760!3887 7760[3720 7747 3601 7216!3601 7216[3581 7127 3565 7031!3565 7031|1928 7031!1928 7031[906 7068 737 6450!737 6450[907 7558 1905 7777"/>
+!737 6450[907 7558 1905 7777!1905 7777|3886 7777!3886 7777|3887 7760!3887 7760[3720 7747 3601 7216!3601 7216[3581 7127 3565 7031!3565 7031|1928 7031!1928 7031[906 7068 737 6450"/>
                                                                                           <Edge cubics="!737 6450(;850,7189 1240,7631 1905,7777q737 6450Q907 7558q1905 7777);"/>
                                                                                           <Edge cubics="!1928 7031(;1248,7056 850,6863 737,6450q1928 7031Q906 7068q737 6450);"/>
                                                                                           <Edge cubics="!3886 7777(;3886,7777 3887,7760 3887,7760q3886 7777 3887 7760);"/>
@@ -1385,7 +1385,7 @@
 !8308 7739|10238 7739!10238 7739|10238 7727!10238 7727|10250 7727!10250 7727|10250 7721!10250 7721[10416 7716 10534 7187!10534 7187[10651 6653 10651 5897!10651 5897[10651 5142 10534 4607!10534 4607[10430 4143 10290 4083!10290 4083|8308
  4083!8308 4083|8308 7739"/>
                                                                                           <Edge fillStyle0="2" edges="
-!5871 4071|5686 4071!5686 4071[5788 4145 5871 4412!5871 4412|5871 4071"/>
+!5686 4071[5788 4145 5871 4412!5871 4412|5871 4071!5871 4071|5686 4071"/>
                                                                                           <Edge fillStyle1="3" edges="
 !5291 4584[5161 5125 5161 5891!5161 5891[5161 6656 5291 7198!5291 7198[5402 7658 5552 7727!5552 7727|3941 7727!3941 7727|3941 7715!3941 7715|3929 7715!3929 7715|3929 7709!3929 7709[3763 7704 3645 7175!3645 7175[3528 6641 3528 5885!3528
  5885[3528 5130 3645 4595!3645 4595[3749 4131 3889 4071!3889 4071|5524 4071!5524 4071[5391 4166 5291 4584"/>
@@ -1608,7 +1608,7 @@
                                                                            </strokes>
                                                                            <edges>
                                                                                 <Edge fillStyle0="1" strokeStyle="1" edges="
-!3920 7734|3920 8198!3920 8198|10215 8198!10215 8198|10215 7734!10215 7734|3920 7734"/>
+!3920 8198|10215 8198!10215 8198|10215 7734!10215 7734|3920 7734!3920 7734|3920 8198"/>
                                                                                 <Edge cubics="!10215 7734(;10215,7734 3920,7734 3920,7734q10215 7734 3920 7734);"/>
                                                                                 <Edge cubics="!3920 8198(;3920,8198 10215,8198 10215,8198q3920 8198 10215 8198);"/>
                                                                                 <Edge cubics="!10215 8198(10215,8198;10215,8198 10215,7734 10215,7734q10215 8198 10215 7734);"/>
@@ -1751,10 +1751,10 @@
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!11654 5111[11672 5129 11672 5155!11672 5155[11672 5181 11654 5200!11654 5200[11636 5218 11610 5218!11610 5218[11584 5218 11566 5200!11566 5200[11548 5181 11548 5155!11548 5155[11548 5129 11566 5111!11566 5111[11584 5093 11610 5093!11610
- 5093[11636 5093 11654 5111!11506 5352[11506 5343 11498 5336!11498 5336[11490 5329 11476 5329!11476 5329[11470 5329 11461 5329!11461 5329|11466 5312!11466 5312|11611 5289!11611 5289|11636 5289!11636 5289|11549 5591!11549 5591[11542 5617
- 11542 5625!11542 5625[11542 5630 11545 5634!11545 5634[11549 5638 11554 5638!11554 5638[11561 5638 11568 5632!11568 5632[11587 5616 11614 5574!11614 5574|11628 5583!11628 5583[11564 5695 11492 5695!11492 5695[11464 5695 11448 5680!11448
- 5680[11431 5664 11431 5640!11431 5640[11431 5624 11439 5600!11439 5600|11498 5397!11498 5397[11506 5367 11506 5352"/>
+!11672 5155[11672 5181 11654 5200!11654 5200[11636 5218 11610 5218!11610 5218[11584 5218 11566 5200!11566 5200[11548 5181 11548 5155!11548 5155[11548 5129 11566 5111!11566 5111[11584 5093 11610 5093!11610 5093[11636 5093 11654 5111!11654
+ 5111[11672 5129 11672 5155!11498 5336[11490 5329 11476 5329!11476 5329[11470 5329 11461 5329!11461 5329|11466 5312!11466 5312|11611 5289!11611 5289|11636 5289!11636 5289|11549 5591!11549 5591[11542 5617 11542 5625!11542 5625[11542 5630
+ 11545 5634!11545 5634[11549 5638 11554 5638!11554 5638[11561 5638 11568 5632!11568 5632[11587 5616 11614 5574!11614 5574|11628 5583!11628 5583[11564 5695 11492 5695!11492 5695[11464 5695 11448 5680!11448 5680[11431 5664 11431 5640!11431
+ 5640[11431 5624 11439 5600!11439 5600|11498 5397!11498 5397[11506 5367 11506 5352!11506 5352[11506 5343 11498 5336"/>
                                                        </edges>
                                                   </DOMShape>
                                              </members>
@@ -2128,6 +2128,15 @@
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="522213" publishTime="1350416483"/>
+          <PublishItem publishSize="521719" publishTime="1350416065"/>
+          <PublishItem publishSize="522197" publishTime="1350416024"/>
+          <PublishItem publishSize="522212" publishTime="1350415991"/>
+          <PublishItem publishSize="522185" publishTime="1350414380"/>
+          <PublishItem publishSize="522145" publishTime="1350414051"/>
+          <PublishItem publishSize="122142" publishTime="1350413988"/>
+          <PublishItem publishSize="122131" publishTime="1350413936"/>
+          <PublishItem publishSize="122130" publishTime="1350413885"/>
           <PublishItem publishSize="517044" publishTime="1349202397"/>
           <PublishItem publishSize="517112" publishTime="1349202232"/>
           <PublishItem publishSize="517122" publishTime="1349202081"/>
@@ -2139,14 +2148,5 @@
           <PublishItem publishSize="517040" publishTime="1349201053"/>
           <PublishItem publishSize="516534" publishTime="1349200974"/>
           <PublishItem publishSize="516563" publishTime="1349200860"/>
-          <PublishItem publishSize="122177" publishTime="1349200766"/>
-          <PublishItem publishSize="517027" publishTime="1349124543"/>
-          <PublishItem publishSize="122120" publishTime="1349124500"/>
-          <PublishItem publishSize="122121" publishTime="1349124462"/>
-          <PublishItem publishSize="122118" publishTime="1349124402"/>
-          <PublishItem publishSize="122121" publishTime="1349124341"/>
-          <PublishItem publishSize="122118" publishTime="1349124291"/>
-          <PublishItem publishSize="122121" publishTime="1349124124"/>
-          <PublishItem publishSize="388698" publishTime="1348782730"/>
      </publishHistory>
 </DOMDocument>
