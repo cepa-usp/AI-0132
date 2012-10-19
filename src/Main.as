@@ -79,7 +79,12 @@
 			ai.container.setAboutScreen(new AboutScreen132());
 			statsScreen = new StatsScreen(ProgressiveEvaluator(ai.evaluator), ai);
 			ai.addObserver(this);
+			ProgressiveEvaluator(ai.evaluator).finishes = false;
 			ai.initialize();
+			if (ProgressiveEvaluator(ai.evaluator).currentPlayMode == AIConstants.PLAYMODE_EVALUATE) {
+				Actuate.tween(menuBar.btValendoNota, 0.5, { alpha:0 } );
+				
+			}
 			
 			
 		}
