@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="UpDown" itemID="4d5d2d17-00000351" linkageExportForAS="true" linkageClassName="UpDown" lastModified="1303760628">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="UpDown" itemID="4d5d2d17-00000351" linkageExportForAS="true" linkageClassName="UpDown" lastModified="1351084478">
   <timeline>
-    <DOMTimeline name="UpDown">
+    <DOMTimeline name="UpDown" currentFrame="1">
       <layers>
-        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Layer 3" color="#FF800A">
           <frames>
             <DOMFrame index="0" name="FECHAR" labelType="name" keyMode="9728">
               <Actionscript>
@@ -15,7 +15,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 2" color="#9933CC">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -699,18 +699,18 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="2" edges="!177.5 0[#BC.C4 #FFFFFD.81 201 -3!201 -3[202 -4 203 -4!203 -4|238 0"/>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!238 0|579 0"/>
                     <Edge strokeStyle="1" edges="!579 0|614 -4!614 -4[615 -4 616 -3!616 -3[689 0 720 74!720 74|732 105!732 105|733 105!733 105|755 159!755 159[757 164 760 169!760 169[771 193 787 208!787 208[803 224 819 235"/>
                     <Edge fillStyle1="1" edges="!819 235|238 235"/>
                     <Edge fillStyle1="2" edges="!238 235|-2 235"/>
                     <Edge strokeStyle="2" edges="!-2 235[-1 #EA.5 0 233.5"/>
                     <Edge fillStyle1="1" strokeStyle="2" edges="!0 233.5[15 223 30 208!30 208[46 193 57 169!57 169[60 164 62 159!62 159|84 105!84 105|85 105!85 105|97 74!97 74[#7A.CE #C.67 177.5 0"/>
+                    <Edge strokeStyle="2" edges="!177.5 0[#BC.C4 #FFFFFD.81 201 -3!201 -3[202 -4 203 -4!203 -4|238 0"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!238 0|579 0"/>
                     <Edge fillStyle0="1" edges="!819 235[776 221 754 173!754 173[751 168 749 163!749 163|727 109!727 109|726 109!726 109|714 78!714 78[683 4 610 1!610 1[609 0 608 0!608 0|579 0"/>
+                    <Edge fillStyle0="2" strokeStyle="1" edges="!238 0|209 0"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!209 0[#CF.F8 #0.08 207 1!207 1[134 4 103 78!103 78|91 109!91 109|90 109!90 109|68 163!68 163[66 168 63 173!63 173[#29.84 #DB.E 0 234.5"/>
                     <Edge fillStyle0="2" edges="!0 234.5[-0.9921875 #EA.AC -2 235"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!238 235|238 0"/>
-                    <Edge fillStyle0="2" strokeStyle="1" edges="!238 0|209 0"/>
                     <Edge fillStyle1="1" edges="!0 234.5|0 233.5"/>
                     <Edge fillStyle0="1" strokeStyle="1" edges="!209 0|177.5 0"/>
                   </edges>
@@ -769,18 +769,18 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
+                    <Edge strokeStyle="1" edges="!177.5 0[#BC.C4 #FFFFFD.81 201 -3!201 -3[202 -4 203 -4!203 -4|238 0"/>
+                    <Edge fillStyle1="2" strokeStyle="1" edges="!238 0|579 0"/>
                     <Edge strokeStyle="1" edges="!579 0|614 -4!614 -4[615 -4 616 -3!616 -3[689 0 720 74!720 74|732 105!732 105|733 105!733 105|755 159!755 159[757 164 760 169!760 169[771 193 787 208!787 208[803 224 819 235"/>
                     <Edge fillStyle1="2" edges="!819 235|238 235"/>
                     <Edge fillStyle1="3" edges="!238 235|-2 235"/>
                     <Edge strokeStyle="1" edges="!-2 235[-1 #EA.5 0 233.5"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!0 233.5[15 223 30 208!30 208[46 193 57 169!57 169[60 164 62 159!62 159|84 105!84 105|85 105!85 105|97 74!97 74[#7A.CE #C.67 177.5 0"/>
-                    <Edge strokeStyle="1" edges="!177.5 0[#BC.C4 #FFFFFD.81 201 -3!201 -3[202 -4 203 -4!203 -4|238 0"/>
-                    <Edge fillStyle1="2" strokeStyle="1" edges="!238 0|579 0"/>
                     <Edge fillStyle0="2" edges="!819 235[776 221 754 173!754 173[751 168 749 163!749 163|727 109!727 109|726 109!726 109|714 78!714 78[683 4 610 1!610 1[609 0 608 0!608 0|579 0"/>
+                    <Edge fillStyle0="3" strokeStyle="1" edges="!238 0|209 0"/>
                     <Edge fillStyle0="3" fillStyle1="1" edges="!209 0[#CF.F8 #0.08 207 1!207 1[134 4 103 78!103 78|91 109!91 109|90 109!90 109|68 163!68 163[66 168 63 173!63 173[#29.84 #DB.E 0 234.5"/>
                     <Edge fillStyle0="3" edges="!0 234.5[-0.9921875 #EA.AC -2 235"/>
                     <Edge fillStyle0="2" fillStyle1="3" edges="!238 0|238 235"/>
-                    <Edge fillStyle0="3" strokeStyle="1" edges="!238 0|209 0"/>
                     <Edge fillStyle1="1" edges="!0 234.5|0 233.5"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!177.5 0|209 0"/>
                   </edges>

@@ -17,7 +17,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!-130 129|-1 0!-1 0|-130 -129!130 -130|-1 0!-1 0|130 130"/>
+                    <Edge strokeStyle="1" edges="!-130 129|-1 0!-1 0|130 130!130 -130|-1 0!-1 0|-130 -129"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -35,7 +35,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!-130 129|-1 0!-1 0|-130 -129!130 -130|-1 0!-1 0|130 130"/>
+                    <Edge strokeStyle="1" edges="!-130 129|-1 0!-1 0|130 130!130 -130|-1 0!-1 0|-130 -129"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -53,7 +53,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!-130 129|-1 0!-1 0|-130 -129!130 -130|-1 0!-1 0|130 130"/>
+                    <Edge strokeStyle="1" edges="!-130 129|-1 0!-1 0|130 130!130 -130|-1 0!-1 0|-130 -129"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -67,7 +67,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!196 200|-196 200!-196 200|-196 -200!-196 -200|196 -200!196 -200|196 200"/>
+                    <Edge fillStyle1="1" edges="!196 -200|196 200!196 200|-196 200!-196 200|-196 -200!-196 -200|196 -200"/>
                   </edges>
                 </DOMShape>
               </elements>

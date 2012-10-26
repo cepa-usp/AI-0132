@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="700" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" viewAngle3D="59.3117946966027" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="700" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" viewAngle3D="59.3117946966027" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="Base" itemID="4cafb00f-000001ee"/>
           <DOMFolderItem name="Botões" itemID="4eb82563-00000380"/>
@@ -8,9 +8,9 @@
           <DOMFolderItem name="Telas" itemID="4eb042dd-0000026e" isExpanded="true"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 1" itemID="4eb291d9-00000213" font="ArialMT" size="0" id="1" sourceLastImported="1320325593" embeddedCharacters=",." embedRanges="3"/>
-          <DOMFontItem name="Font 2" itemID="4eba7a3d-00000279" font="Arial-BoldMT" size="0" id="2" sourceLastImported="1320843837" embeddedCharacters=".,*-" embedRanges="3"/>
           <DOMFontItem name="Font 3" itemID="4ebd3c63-00000243" font="BookAntiqua" size="0" id="3" sourceLastImported="1321024611" embeddedCharacters="iIjJ"/>
+          <DOMFontItem name="Font 2" itemID="4eba7a3d-00000279" font="Arial-BoldMT" size="0" id="2" sourceLastImported="1320843837" embeddedCharacters=".,*-" embedRanges="3"/>
+          <DOMFontItem name="Font 1" itemID="4eb291d9-00000213" font="ArialMT" size="0" id="1" sourceLastImported="1320325593" embeddedCharacters=",." embedRanges="3"/>
      </fonts>
      <media>
           <DOMBitmapItem name="Logos/Bitmap 4" itemID="4eaaa12d-00000715" sourceLastImported="1319805229" originalCompressionType="lossless" quality="50" href="Logos/Bitmap 4" bitmapDataHRef="M 4 1319805229.dat" frameRight="3420" frameBottom="1780"/>
@@ -53,7 +53,7 @@
           <Include href="Telas/AboutScreen132.xml" itemID="506b2ad6-00000250" lastModified="1349200816"/>
           <Include href="Telas/InfoScreen132.xml" itemID="506b2ab0-0000024f" lastModified="1349200607"/>
           <Include href="Telas/WarningScreen.xml" itemID="4eba7503-0000026f" lastModified="1349200545"/>
-          <Include href="UpDown.xml" itemID="4d5d2d17-00000351" lastModified="1303760628"/>
+          <Include href="UpDown.xml" itemID="4d5d2d17-00000351" lastModified="1351084478"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -840,7 +840,7 @@
                                                                       <Edge fillStyle1="3" strokeStyle="1" edges="
 !12516 4035[12475 3894 12383 3619!12383 3619[12290 3344 12216 3253!12216 3253[12183 3211 12144 3184!12144 3184[12109 3160 12070 3148"/>
                                                                       <Edge fillStyle0="4" fillStyle1="1" edges="
-!12281 3202|12281 3209!12281 3209|12608 3904!12608 3904[12628 3878 12605 3802!12605 3802|12281 3202"/>
+!12281 3209|12608 3904!12608 3904[12628 3878 12605 3802!12605 3802|12281 3202!12281 3202|12281 3209"/>
                                                                       <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
 !12585 3985[12589 3977 12592 3968"/>
                                                                       <Edge strokeStyle="1" edges="
@@ -1235,7 +1235,7 @@
                                                                                      </fills>
                                                                                      <edges>
                                                                                           <Edge fillStyle0="1" edges="
-!737 6450[907 7558 1905 7777!1905 7777|3886 7777!3886 7777|3887 7760!3887 7760[3720 7747 3601 7216!3601 7216[3581 7127 3565 7031!3565 7031|1928 7031!1928 7031[906 7068 737 6450"/>
+!1905 7777|3886 7777!3886 7777|3887 7760!3887 7760[3720 7747 3601 7216!3601 7216[3581 7127 3565 7031!3565 7031|1928 7031!1928 7031[906 7068 737 6450!737 6450[907 7558 1905 7777"/>
                                                                                           <Edge cubics="!737 6450(;850,7189 1240,7631 1905,7777q737 6450Q907 7558q1905 7777);"/>
                                                                                           <Edge cubics="!1928 7031(;1248,7056 850,6863 737,6450q1928 7031Q906 7068q737 6450);"/>
                                                                                           <Edge cubics="!3886 7777(;3886,7777 3887,7760 3887,7760q3886 7777 3887 7760);"/>
@@ -1385,7 +1385,7 @@
 !8308 7739|10238 7739!10238 7739|10238 7727!10238 7727|10250 7727!10250 7727|10250 7721!10250 7721[10416 7716 10534 7187!10534 7187[10651 6653 10651 5897!10651 5897[10651 5142 10534 4607!10534 4607[10430 4143 10290 4083!10290 4083|8308
  4083!8308 4083|8308 7739"/>
                                                                                           <Edge fillStyle0="2" edges="
-!5686 4071[5788 4145 5871 4412!5871 4412|5871 4071!5871 4071|5686 4071"/>
+!5871 4412|5871 4071!5871 4071|5686 4071!5686 4071[5788 4145 5871 4412"/>
                                                                                           <Edge fillStyle1="3" edges="
 !5291 4584[5161 5125 5161 5891!5161 5891[5161 6656 5291 7198!5291 7198[5402 7658 5552 7727!5552 7727|3941 7727!3941 7727|3941 7715!3941 7715|3929 7715!3929 7715|3929 7709!3929 7709[3763 7704 3645 7175!3645 7175[3528 6641 3528 5885!3528
  5885[3528 5130 3645 4595!3645 4595[3749 4131 3889 4071!3889 4071|5524 4071!5524 4071[5391 4166 5291 4584"/>
@@ -1608,7 +1608,7 @@
                                                                            </strokes>
                                                                            <edges>
                                                                                 <Edge fillStyle0="1" strokeStyle="1" edges="
-!3920 8198|10215 8198!10215 8198|10215 7734!10215 7734|3920 7734!3920 7734|3920 8198"/>
+!10215 8198|10215 7734!10215 7734|3920 7734!3920 7734|3920 8198!3920 8198|10215 8198"/>
                                                                                 <Edge cubics="!10215 7734(;10215,7734 3920,7734 3920,7734q10215 7734 3920 7734);"/>
                                                                                 <Edge cubics="!3920 8198(;3920,8198 10215,8198 10215,8198q3920 8198 10215 8198);"/>
                                                                                 <Edge cubics="!10215 8198(10215,8198;10215,8198 10215,7734 10215,7734q10215 8198 10215 7734);"/>
@@ -1751,10 +1751,10 @@
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!11672 5155[11672 5181 11654 5200!11654 5200[11636 5218 11610 5218!11610 5218[11584 5218 11566 5200!11566 5200[11548 5181 11548 5155!11548 5155[11548 5129 11566 5111!11566 5111[11584 5093 11610 5093!11610 5093[11636 5093 11654 5111!11654
- 5111[11672 5129 11672 5155!11498 5336[11490 5329 11476 5329!11476 5329[11470 5329 11461 5329!11461 5329|11466 5312!11466 5312|11611 5289!11611 5289|11636 5289!11636 5289|11549 5591!11549 5591[11542 5617 11542 5625!11542 5625[11542 5630
- 11545 5634!11545 5634[11549 5638 11554 5638!11554 5638[11561 5638 11568 5632!11568 5632[11587 5616 11614 5574!11614 5574|11628 5583!11628 5583[11564 5695 11492 5695!11492 5695[11464 5695 11448 5680!11448 5680[11431 5664 11431 5640!11431
- 5640[11431 5624 11439 5600!11439 5600|11498 5397!11498 5397[11506 5367 11506 5352!11506 5352[11506 5343 11498 5336"/>
+!11566 5111[11584 5093 11610 5093!11610 5093[11636 5093 11654 5111!11654 5111[11672 5129 11672 5155!11672 5155[11672 5181 11654 5200!11654 5200[11636 5218 11610 5218!11610 5218[11584 5218 11566 5200!11566 5200[11548 5181 11548 5155!11548
+ 5155[11548 5129 11566 5111!11476 5329[11470 5329 11461 5329!11461 5329|11466 5312!11466 5312|11611 5289!11611 5289|11636 5289!11636 5289|11549 5591!11549 5591[11542 5617 11542 5625!11542 5625[11542 5630 11545 5634!11545 5634[11549 5638
+ 11554 5638!11554 5638[11561 5638 11568 5632!11568 5632[11587 5616 11614 5574!11614 5574|11628 5583!11628 5583[11564 5695 11492 5695!11492 5695[11464 5695 11448 5680!11448 5680[11431 5664 11431 5640!11431 5640[11431 5624 11439 5600!11439
+ 5600|11498 5397!11498 5397[11506 5367 11506 5352!11506 5352[11506 5343 11498 5336!11498 5336[11490 5329 11476 5329"/>
                                                        </edges>
                                                   </DOMShape>
                                              </members>
