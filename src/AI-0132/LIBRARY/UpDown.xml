@@ -20,14 +20,8 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix a="0" b="0.666671752929688" c="-0.666671752929688" d="0" tx="7.95" ty="0.2"/>
-                  </matrix>
                   <members>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                      </matrix>
                       <members>
                         <DOMOvalObject objectWidth="6" objectHeight="6" x="-22" y="444.75" endAngle="0">
                           <matrix>
@@ -107,9 +101,6 @@
                           </fill>
                         </DOMOvalObject>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMOvalObject objectWidth="6" objectHeight="6" x="-22" y="444.75" selected="true" endAngle="0">
                               <matrix>
@@ -191,9 +182,6 @@
                           </members>
                         </DOMGroup>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMOvalObject objectWidth="6" objectHeight="6" x="-22" y="444.75" selected="true" endAngle="0">
                               <matrix>
@@ -275,9 +263,6 @@
                           </members>
                         </DOMGroup>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMOvalObject objectWidth="6" objectHeight="6" x="-22" y="444.75" selected="true" endAngle="0">
                               <matrix>
@@ -317,19 +302,10 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                      </matrix>
                       <members>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMShape>
-                              <matrix>
-                                <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                              </matrix>
                               <strokes>
                                 <StrokeStyle index="1">
                                   <SolidStroke scaleMode="normal" weight="2">
@@ -340,20 +316,14 @@
                                 </StrokeStyle>
                               </strokes>
                               <edges>
-                                <Edge strokeStyle="1" edges="!305 64|405 164!405 164|505 64"/>
+                                <Edge strokeStyle="1" edges="!116 207|50 274!50 274|116 341"/>
                               </edges>
                             </DOMShape>
                           </members>
                         </DOMGroup>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMShape>
-                              <matrix>
-                                <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.95" ty="0.2"/>
-                              </matrix>
                               <strokes>
                                 <StrokeStyle index="1">
                                   <SolidStroke scaleMode="normal" weight="2">
@@ -364,7 +334,7 @@
                                 </StrokeStyle>
                               </strokes>
                               <edges>
-                                <Edge strokeStyle="1" edges="!305 91|405 191!405 191|505 91"/>
+                                <Edge strokeStyle="1" edges="!98 207|32 274!32 274|98 341"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -378,14 +348,8 @@
             <DOMFrame index="1" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix a="0" b="0.666671752929688" c="-0.666671752929688" d="0" tx="7.65" ty="0.2"/>
-                  </matrix>
                   <members>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.55" ty="0.2"/>
-                      </matrix>
                       <members>
                         <DOMOvalObject objectWidth="6" objectHeight="6" x="-22" y="444.75" endAngle="0">
                           <matrix>
@@ -632,19 +596,10 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.55" ty="0.2"/>
-                      </matrix>
                       <members>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.55" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMShape>
-                              <matrix>
-                                <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.55" ty="0.2"/>
-                              </matrix>
                               <strokes>
                                 <StrokeStyle index="1">
                                   <SolidStroke scaleMode="normal" weight="2">
@@ -655,20 +610,14 @@
                                 </StrokeStyle>
                               </strokes>
                               <edges>
-                                <Edge strokeStyle="1" edges="!490 180|390 80!390 80|290 180"/>
+                                <Edge strokeStyle="1" edges="!31 331|98 264!98 264|31 197"/>
                               </edges>
                             </DOMShape>
                           </members>
                         </DOMGroup>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.55" ty="0.2"/>
-                          </matrix>
                           <members>
                             <DOMShape>
-                              <matrix>
-                                <Matrix a="0" b="0.666473388671875" c="-0.666473388671875" d="0" tx="7.55" ty="0.2"/>
-                              </matrix>
                               <strokes>
                                 <StrokeStyle index="1">
                                   <SolidStroke scaleMode="normal" weight="2">
@@ -679,7 +628,7 @@
                                 </StrokeStyle>
                               </strokes>
                               <edges>
-                                <Edge strokeStyle="1" edges="!490 159|390 59!390 59|290 159"/>
+                                <Edge strokeStyle="1" edges="!45 331|112 264!112 264|45 197"/>
                               </edges>
                             </DOMShape>
                           </members>
@@ -759,8 +708,8 @@
                     <Edge fillStyle1="1" edges="!10 4|11 4"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!167 143[#A6.F8 142 166 142!166 142[164 93 115 72!115 72|58 49!58 49[55 48 51 46!51 46[20 32 10 4"/>
                     <Edge fillStyle0="2" strokeStyle="2" edges="!167 162|167 143"/>
-                    <Edge fillStyle0="2" fillStyle1="1" edges="!10 162|167 162"/>
                     <Edge fillStyle0="1" strokeStyle="2" edges="!167 143|167 122"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!10 162|167 162"/>
                     <Edge fillStyle0="1" edges="!10 550[19 521 51 506!51 506[55 504 58 503!58 503|115 480!115 480[164 459 166 410!166 410[167 410 167 409!167 409|167 390"/>
                   </edges>
                 </DOMShape>
@@ -827,8 +776,8 @@
                     <Edge fillStyle1="1" edges="!10 4|11 4"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!167 143[#A6.F8 142 166 142!166 142[164 93 115 72!115 72|58 49!58 49[55 48 51 46!51 46[20 32 10 4"/>
                     <Edge fillStyle0="2" strokeStyle="1" edges="!167 162|167 143"/>
-                    <Edge fillStyle0="3" fillStyle1="2" edges="!167 162|10 162"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!167 122|167 143"/>
+                    <Edge fillStyle0="3" fillStyle1="2" edges="!167 162|10 162"/>
                     <Edge fillStyle0="3" edges="!10 550[19 521 51 506!51 506[55 504 58 503!58 503|115 480!115 480[164 459 166 410!166 410[167 410 167 409!167 409|167 390"/>
                   </edges>
                 </DOMShape>

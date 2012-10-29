@@ -23,19 +23,20 @@
                   </fills>
                   <edges>
                     <Edge fillStyle1="2" edges="!20 20|20 0!20 0|1580 0!1580 0|1580 20"/>
-                    <Edge fillStyle0="1" fillStyle1="2" edges="!1580 20|20 20"/>
-                    <Edge fillStyle0="3" fillStyle1="4" edges="!1581 40|1580 40!1580 40|1580 60"/>
-                    <Edge fillStyle1="4" edges="!1580 60|1560 60"/>
-                    <Edge fillStyle0="3" fillStyle1="4" edges="!1560 60|1560 40"/>
+                    <Edge fillStyle0="4" fillStyle1="1" edges="!1580 20|1580 40"/>
+                    <Edge fillStyle0="3" fillStyle1="4" edges="!1580 40|1580 60"/>
+                    <Edge fillStyle0="3" edges="!1580 60|1581 60!1581 60|1581 40"/>
+                    <Edge fillStyle0="3" fillStyle1="4" edges="!1581 40|1580 40"/>
+                    <Edge fillStyle0="4" fillStyle1="1" edges="!1580 40|1560 40"/>
                     <Edge fillStyle0="3" fillStyle1="1" edges="!1560 40|40 40"/>
-                    <Edge fillStyle0="4" fillStyle1="1" edges="!40 40|20 40"/>
-                    <Edge fillStyle0="4" edges="!20 40|20 60!20 60|40 60"/>
-                    <Edge fillStyle0="3" edges="!40 60|1560 60!1580 60|1581 60!1581 60|1581 40"/>
-                    <Edge fillStyle0="4" edges="!1581 40|1600 40!1600 40|1600 20!1600 20|1580 20"/>
-                    <Edge fillStyle0="4" fillStyle1="1" edges="!1580 20|1580 40!1580 40|1560 40"/>
-                    <Edge fillStyle0="4" edges="!20 20|0 20!0 20|0 40!0 40|20 40"/>
-                    <Edge fillStyle0="4" fillStyle1="1" edges="!20 40|20 20"/>
                     <Edge fillStyle0="3" fillStyle1="4" edges="!40 40|40 60"/>
+                    <Edge fillStyle0="3" edges="!40 60|1560 60"/>
+                    <Edge fillStyle0="3" fillStyle1="4" edges="!1560 60|1560 40"/>
+                    <Edge fillStyle0="4" edges="!1581 40|1600 40!1600 40|1600 20!1600 20|1580 20"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!1580 20|20 20"/>
+                    <Edge fillStyle1="4" edges="!1580 60|1560 60"/>
+                    <Edge fillStyle0="4" edges="!20 20|0 20!0 20|0 40!0 40|20 40!20 40|20 60!20 60|40 60"/>
+                    <Edge fillStyle0="4" fillStyle1="1" edges="!40 40|20 40!20 40|20 20"/>
                   </edges>
                 </DOMShape>
               </elements>

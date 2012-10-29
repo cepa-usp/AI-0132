@@ -9,14 +9,8 @@
                 <DOMGroup>
                   <members>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix tx="23"/>
-                      </matrix>
                       <members>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix tx="23"/>
-                          </matrix>
                           <members>
                             <DOMRectangleObject objectWidth="117.05" objectHeight="28" x="19.4" y="-9.9" lockFlag="true" topLeftRadius="2.75" topRightRadius="2.75" bottomLeftRadius="2.75" bottomRightRadius="2.75">
                               <matrix>
@@ -127,14 +121,8 @@
                 <DOMGroup>
                   <members>
                     <DOMGroup>
-                      <matrix>
-                        <Matrix tx="23"/>
-                      </matrix>
                       <members>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix tx="23"/>
-                          </matrix>
                           <members>
                             <DOMRectangleObject objectWidth="117.05" objectHeight="28" x="19.4" y="-9.9" lockFlag="true" topLeftRadius="2.75" topRightRadius="2.75" bottomLeftRadius="2.75" bottomRightRadius="2.75">
                               <matrix>

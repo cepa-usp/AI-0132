@@ -16,7 +16,7 @@
 		private var tmax:Number;
 		
 		private var radius:Number = 8;
-		private var heightLimit:Number = 187;
+		private var heightLimit:Number = 250;
 		private var s0x:Number;
 		private var s0y:Number;
 		

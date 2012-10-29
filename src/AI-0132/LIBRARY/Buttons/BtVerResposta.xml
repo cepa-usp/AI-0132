@@ -141,7 +141,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!1500 -230|1500 230!1500 230|-299 230!-299 230|-299 -230!-299 -230|1500 -230"/>
+                    <Edge fillStyle1="1" edges="!1500 230|-299 230!-299 230|-299 -230!-299 -230|1500 -230!1500 -230|1500 230"/>
                   </edges>
                 </DOMShape>
                 <DOMStaticText left="44.65" width="54.7" height="10.3" includeOutlines="true" isSelectable="false">

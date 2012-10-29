@@ -77,7 +77,7 @@
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
-    <AS3PackagePaths>.;Z:\CEPA\github\cepa-framework;Z:\CEPA\github\cepa-framework\libraries;Z:\CEPA\CEPALib\AS3\src</AS3PackagePaths>
+    <AS3PackagePaths>.;..\..\cepa-framework;..\..\cepa-lib\AS3\src</AS3PackagePaths>
     <AS3ConfigConst></AS3ConfigConst>
     <DebuggingPermitted>0</DebuggingPermitted>
     <DebuggingPassword></DebuggingPassword>
@@ -116,19 +116,19 @@
         <rsl-url>textLayout_2.0.0.232.swz</rsl-url>
       </library-path-entry>
       <library-path-entry>
-        <swc-path>Z:\CEPA\github\cepa-framework\includes\as3corelib.swc</swc-path>
+        <swc-path>..\..\cepa-framework\includes\as3corelib.swc</swc-path>
         <linkage>merge</linkage>
       </library-path-entry>
       <library-path-entry>
-        <swc-path>Z:\CEPA\github\cepa-framework\includes\menuMoldura.swc</swc-path>
+        <swc-path>..\..\cepa-framework\cepa\eval\ProgEvalStats.swc</swc-path>
         <linkage>merge</linkage>
       </library-path-entry>
       <library-path-entry>
-        <swc-path>Z:\CEPA\github\cepa-framework\includes\ui.swc</swc-path>
+        <swc-path>..\..\cepa-framework\includes\menuMoldura.swc</swc-path>
         <linkage>merge</linkage>
       </library-path-entry>
       <library-path-entry>
-        <swc-path>Z:\CEPA\github\cepa-framework\cepa\eval\ProgEvalStats.swc</swc-path>
+        <swc-path>..\..\cepa-framework\includes\ui.swc</swc-path>
         <linkage>merge</linkage>
       </library-path-entry>
     </LibraryPath>

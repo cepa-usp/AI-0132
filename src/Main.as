@@ -57,7 +57,6 @@
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			this.scrollRect = new Rectangle(0, 0, 700, 500);
-			
 			createLayers();
 			configAi();
 			configMenuBar();
@@ -85,6 +84,10 @@
 				Actuate.tween(menuBar.btValendoNota, 0.5, { alpha:0 } );
 				
 			}
+			if (posXini == -1) {
+				posXini = menuBar.x;
+			}
+
 			
 			
 		}
@@ -145,7 +148,8 @@
 			
 			animation = new Animation();
 			atividade_layer.addChild(animation);
-			animation.y = 202;
+			animation.y = 160;
+			animation.x = 300;
 			animation.mask = mascara;
 			
 			menuBar.btn_upDown.buttonMode = true;
@@ -188,9 +192,9 @@
 			menuBar.btNovamente.addEventListener(MouseEvent.MOUSE_OVER, function(e:MouseEvent):void { menuBar.btNovamente.gotoAndStop(2) } );
 			menuBar.btNovamente.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent):void { menuBar.btNovamente.gotoAndStop(1) } );
 			
-			menuBar.btVerResposta.gotoAndStop(1);
-			menuBar.btVerResposta.addEventListener(MouseEvent.MOUSE_OVER, function(e:MouseEvent):void { menuBar.btVerResposta.gotoAndStop(2) } );
-			menuBar.btVerResposta.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent):void { menuBar.btVerResposta.gotoAndStop(1) } );
+			//menuBar.btVerResposta.gotoAndStop(1);
+			//menuBar.btVerResposta.addEventListener(MouseEvent.MOUSE_OVER, function(e:MouseEvent):void { menuBar.btVerResposta.gotoAndStop(2) } );
+			//menuBar.btVerResposta.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent):void { menuBar.btVerResposta.gotoAndStop(1) } );
 			
 			menuBar.answerCorrente.visible = false;
 			menuBar.answerDensidade.visible = false;
@@ -200,19 +204,19 @@
 			
 			var ttAvaliar:ToolTip = new ToolTip(menuBar.btAvaliar, "Avaliar exercício", 12, 0.8, 200, 0.6, 0.6);
 			var ttNovamente:ToolTip = new ToolTip(menuBar.btNovamente, "Nova tentativa", 12, 0.8, 200, 0.6, 0.6);
-			var ttResposta:ToolTip = new ToolTip(menuBar.btVerResposta, "Ver/ocultar respostas", 12, 0.8, 200, 0.6, 0.6);
+			//var ttResposta:ToolTip = new ToolTip(menuBar.btVerResposta, "Ver/ocultar respostas", 12, 0.8, 200, 0.6, 0.6);
 			
 			var ttII:ToolTip = new ToolTip(menuBar.ii, "Corrente elétrica", 12, 0.8, 200, 0.6, 0.6);
 			var ttJJ:ToolTip = new ToolTip(menuBar.jj, "Densidade de corrente elétrica", 12, 0.8, 200, 0.6, 0.6);
 			
 			stage.addChild(ttAvaliar);
 			stage.addChild(ttNovamente);
-			stage.addChild(ttResposta);
+			//stage.addChild(ttResposta);
 			stage.addChild(ttII);
 			stage.addChild(ttJJ);
 			
-			menuBar.btVerResposta.verexerc.visible = false;
-			menuBar.btVerResposta.visible = false;
+			//menuBar.btVerResposta.verexerc.visible = false;
+			//menuBar.btVerResposta.visible = false;
 			menuBar.btNovamente.visible = false;
 			
 			//eventListener do botão reset da moldura.
@@ -220,7 +224,7 @@
 			menuBar.btNovamente.addEventListener(MouseEvent.CLICK, reset);
 			menuBar.btValendoNota.addEventListener(MouseEvent.CLICK, onValendoNotaClick);
 			menuBar.btAvaliar.addEventListener(MouseEvent.CLICK, aval);
-			menuBar.btVerResposta.addEventListener(MouseEvent.CLICK, showHideAnswer);
+			//menuBar.btVerResposta.addEventListener(MouseEvent.CLICK, showHideAnswer);
 		}
 		
 		private function onValendoNotaClick(e:MouseEvent):void 
@@ -233,15 +237,15 @@
 		
 		private function showHideAnswer(e:MouseEvent):void 
 		{
-			if (menuBar.btVerResposta.verresp.visible) {
-				//Mostra resposta
-				menuBar.btVerResposta.verresp.visible = false;
-				menuBar.btVerResposta.verexerc.visible = true;
-			}else {
-				//esconde resposta
-				menuBar.btVerResposta.verresp.visible = true;
-				menuBar.btVerResposta.verexerc.visible = false;
-			}
+///			if (menuBar.btVerResposta.verresp.visible) {
+///				//Mostra resposta
+///				menuBar.btVerResposta.verresp.visible = false;
+///				menuBar.btVerResposta.verexerc.visible = true;
+///			}else {
+///				//esconde resposta
+///				menuBar.btVerResposta.verresp.visible = true;
+///				menuBar.btVerResposta.verexerc.visible = false;
+			///}
 		}
 		
 		private var answerCorrente:NotCi;
@@ -378,9 +382,9 @@
 				
 				menuBar.btAvaliar.visible = false;
 				//menuBar.btValendoNota.visible = true;
-				menuBar.btVerResposta.visible = true;
-				menuBar.btVerResposta.verexerc.visible = false;
-				menuBar.btVerResposta.verresp.visible = true;
+				//menuBar.btVerResposta.visible = true;
+				//menuBar.btVerResposta.verexerc.visible = false;
+				//menuBar.btVerResposta.verresp.visible = true;
 				menuBar.btNovamente.visible = true;
 			}else {
 				warningScreen.openScreen();
@@ -400,9 +404,9 @@
 			
 			animation.resetAnimation();
 			
-			menuBar.btVerResposta.verexerc.visible = false;
-			menuBar.btVerResposta.verresp.visible = true;
-			menuBar.btVerResposta.visible = false;
+			//menuBar.btVerResposta.verexerc.visible = false;
+			//menuBar.btVerResposta.verresp.visible = true;
+			//menuBar.btVerResposta.visible = false;
 			menuBar.btNovamente.visible = false;
 			menuBar.btAvaliar.visible = true;
 			//btValendoNota.visible = false;
@@ -438,14 +442,18 @@
 
 		private function openCloseMenuBar(e:MouseEvent):void
 		{
+
+			trace(menuBar, posXini, menuOpen)
 			if(menuOpen){
 				menuOpen = false;
-				tweenMenu = new Tween(menuBar, "y", None.easeNone, menuBar.y, 476, 0.3, true);
+				Actuate.tween(menuBar, 1, { x:(-menuBar.width) } );
+				
+				//tweenMenu = new Tween(menuBar, "y", None.easeNone, menuBar.x, 53, 1.3, true);
 			}else{
 				menuOpen = true;
-				tweenMenu = new Tween(menuBar, "y", None.easeNone, menuBar.y, 355, 0.3, true);
+				Actuate.tween(menuBar, 1, { x:posXini } );
 			}
-			tweenMenu.addEventListener(TweenEvent.MOTION_FINISH, changeBtnUpDown);
+			//tweenMenu.addEventListener(TweenEvent.MOTION_FINISH, changeBtnUpDown);
 		}
 
 		private function changeBtnUpDown(e:TweenEvent):void
@@ -560,6 +568,7 @@
 		private var pingTimer:Timer;
 		private var mementoSerialized:String = "";
 		private var ai:AI;
+		private var posXini:Number = -1;
 		
 		
 

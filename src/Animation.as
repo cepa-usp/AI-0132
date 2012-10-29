@@ -40,43 +40,43 @@ package
 		
 		private function createLayers():void 
 		{
-			secaoFundoLayer = new Sprite();
-			addChild(secaoFundoLayer);
+			//secaoFundoLayer = new Sprite();
+			//addChild(secaoFundoLayer);
 			eletronsLayer = new Sprite();
 			addChild(eletronsLayer);
-			secaoFrenteLayer = new Sprite();
-			addChild(secaoFrenteLayer);
+			//secaoFrenteLayer = new Sprite();
+			//addChild(secaoFrenteLayer);
 			
-			secaoFundoLayer.addChild(secaoFundo);
-			secaoFrenteLayer.addChild(secaoFrente);
-			secaoFrenteLayer.addChild(mcArea);
+			//secaoFundoLayer.addChild(secaoFundo);
+			//secaoFrenteLayer.addChild(secaoFrente);
+			//secaoFrenteLayer.addChild(mcArea);
 		}
 		
 		private function addListeners():void 
 		{
-			secaoFundo.buttonMode = true;
-			secaoFrente.buttonMode = true;
-			secaoFundo.addEventListener(MouseEvent.MOUSE_OVER, showArea);
-			secaoFundo.addEventListener(MouseEvent.MOUSE_OUT, hideArea);
-			secaoFrente.addEventListener(MouseEvent.MOUSE_OVER, showArea);
-			secaoFrente.addEventListener(MouseEvent.MOUSE_OUT, hideArea);
-			mcArea.visible = false;
+			//secaoFundo.buttonMode = true;
+			//secaoFrente.buttonMode = true;
+			//secaoFundo.addEventListener(MouseEvent.MOUSE_OVER, showArea);
+			//secaoFundo.addEventListener(MouseEvent.MOUSE_OUT, hideArea);
+			//secaoFrente.addEventListener(MouseEvent.MOUSE_OVER, showArea);
+			//secaoFrente.addEventListener(MouseEvent.MOUSE_OUT, hideArea);
+			//mcArea.visible = false;
 		}
 		
 		private function showArea(e:MouseEvent):void 
 		{
-			mcArea.visible = true;
+			//mcArea.visible = true;
 		}
 		
 		private function hideArea(e:MouseEvent):void 
 		{
-			mcArea.visible = false;
+			//mcArea.visible = false;
 		}
 		
 		public function setArea(area:Number, exp:int):void
 		{
-			this.mcArea.area.text = String(area).replace(".", ",") + " x 10";
-			this.mcArea.expoente.text = String(exp);
+			//this.mcArea.area.text = String(area).replace(".", ",") + " x 10";
+			//this.mcArea.expoente.text = String(exp);
 		}
 		
 		private function createConfigs():void 
@@ -154,7 +154,7 @@ package
 			//var eletronsToRemove:Vector.<Eletron> = new Vector.<Eletron>();
 			
 			for each(var eletron:Eletron in eletrons) {
-				if (eletron.x > secaoFundo.x && !eletron.crossed && !eletron.finished) {
+				if (eletron.x > 100 && !eletron.crossed && !eletron.finished) {
 					eletron.crossed = true;
 					//eletron.filters = [new GlowFilter()];
 					if(counting) _eletronsCount++;
@@ -188,7 +188,7 @@ package
 			counting = false;
 		}
 		
-		private var heightFio:Number = 187;
+		private var heightFio:Number = 250;
 		private function getPosition():Point 
 		{
 			var min:Number = 10;
