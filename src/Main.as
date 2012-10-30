@@ -138,10 +138,11 @@
 		 */
 		private function configAi():void 
 		{
-			cronometro = new Cronometro();
-			contador_layer.addChild(cronometro);
-			cronometro.x = 195;
-			cronometro.y = 139;
+			//cronometro = new Cronometro();
+			//contador_layer.addChild(cronometro);
+			//cronometro.x = 195;
+			//cronometro.y = 139;
+			cronometro = cron;
 			cronometro.addEventListener("START_COUNTING", startCount);
 			cronometro.addEventListener("STOP_COUNTING", stopCount);
 			cronometro.addEventListener("RESET_COUNTING", resetCount);
@@ -229,10 +230,18 @@
 		
 		private function onValendoNotaClick(e:MouseEvent):void 
 		{
-			ProgressiveEvaluator(ai.evaluator).currentPlayMode = AIConstants.PLAYMODE_EVALUATE;
-			Actuate.tween(menuBar.btValendoNota, 1, { alpha:0 } );
-			reset(null);
+			//ProgressiveEvaluator(ai.evaluator).currentPlayMode = AIConstants.PLAYMODE_EVALUATE;
+			//Actuate.tween(menuBar.btValendoNota, 1, { alpha:0 } );
+			ProgressiveEvaluator(ai.evaluator).askEvaluation(DisplayObject(e.target), onValendoNotaConfirm);
+			//reset(null);
 			
+		}
+		
+		private function onValendoNotaConfirm():void 
+		{
+				if (ProgressiveEvaluator(ai.evaluator).currentPlayMode==AIConstants.PLAYMODE_EVALUATE) {
+					reset(null);
+				}
 		}
 		
 		private function showHideAnswer(e:MouseEvent):void 
