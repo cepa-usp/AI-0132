@@ -87,6 +87,12 @@
 			if (posXini == -1) {
 				posXini = menuBar.x;
 			}
+			menuBar.btAvaliar.mouseChildren = false;
+			menuBar.btAvaliar.buttonMode = true
+			
+			
+			menuBar.btValendoNota.mouseChildren = false;
+			menuBar.btValendoNota.buttonMode = true
 
 			
 			
@@ -124,7 +130,7 @@
 			setChildIndex(contador_layer, 0);
 			setChildIndex(background_layer, 0);
 			
-			addChild(menuBar);
+			//addChild(menuBar);
 			
 			warningScreen = new WarningScreen();
 			//stage.addChild(warningScreen);
@@ -281,6 +287,8 @@
 			var rand:int = Math.floor(Math.random() * areasSecao.length);
 			areaSecao = areasSecao[rand];
 			animation.setArea(areaSecao.mantissa, areaSecao.ordem);
+			area.text = areaSecao.mantissa.toFixed(2).replace(".", ",");
+			expoente.text = areaSecao.ordem.toString();
 		}
 		
 		private function preCalc():void {
