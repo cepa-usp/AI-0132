@@ -73,10 +73,15 @@
 			ai = new AI(this);
 			ai.container.setMessageTextVisible(false);
 			ai.debugMode = true;
-			ai.evaluator = new ProgressiveEvaluator(ai);
+			var eval:ProgressiveEvaluator = new ProgressiveEvaluator(ai);
+			eval.feedback.x = stage.stageWidth / 2;
+			eval.feedback.y = stage.stageHeight / 2;
+			ai.evaluator = eval;
 			ai.container.setInfoScreen(new InfoScreen132());
 			ai.container.setAboutScreen(new AboutScreen132());
 			statsScreen = new StatsScreen(ProgressiveEvaluator(ai.evaluator), ai);
+			statsScreen.stats.x = stage.stageWidth / 2;
+			statsScreen.stats.y = stage.stageHeight / 2;
 			ai.addObserver(this);
 			ProgressiveEvaluator(ai.evaluator).finishes = false;
 			ai.initialize();

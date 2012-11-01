@@ -16,7 +16,7 @@
 		private var tmax:Number;
 		
 		private var radius:Number = 8;
-		private var heightLimit:Number = 250;
+		private var heightLimit:Number = 220;
 		private var s0x:Number;
 		private var s0y:Number;
 		
@@ -42,7 +42,7 @@
 			
 			timer = new Timer(timerDelay);
 			timer.addEventListener(TimerEvent.TIMER, updatePos);
-			timer.start();
+			//timer.start();
 		}
 		
 		public function startMoving():void 
@@ -53,6 +53,7 @@
 			sortDirections();
 			
 			addEventListener(Event.ENTER_FRAME, movePart);
+			timer.start();
 		}
 		
 		public function stopMoving():void
@@ -60,6 +61,17 @@
 			timer.removeEventListener(TimerEvent.TIMER, updatePos);
 			timer.stop();
 			removeEventListener(Event.ENTER_FRAME, movePart);
+		}
+		
+		public function configEletron(step:Number, tmin:Number, tmax:Number):void
+		{
+			this.step_t = step;
+			timerDelay = int(rand(tmin, tmax));
+			//timerDelay = int(rand(850, 1500));
+			
+			timer = new Timer(timerDelay);
+			timer.addEventListener(TimerEvent.TIMER, updatePos);
+			//timer.start();
 		}
 		
 		private function movePart(e:Event):void

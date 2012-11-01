@@ -20,6 +20,7 @@ package
 		
 		private var eletrons:Vector.<Eletron> = new Vector.<Eletron>();
 		private var pilha:Vector.<Eletron> = new Vector.<Eletron>();
+		private var maxEletrons:Number = 40;
 		private var timerToCreateEletrons:Timer;
 		
 		private var counting:Boolean = false;
@@ -102,16 +103,16 @@ package
 		 */
 		private function startAnimation():void 
 		{
-			pilha = new Vector.<Eletron>();
+			//pilha = new Vector.<Eletron>();
 			//timerToCreateEletrons = new Timer(getDelay(0.5, 2), 1);
-			timerToCreateEletrons = new Timer(getDelay(configAtual.delayMin, configAtual.delayMax), 1);
-			timerToCreateEletrons.addEventListener(TimerEvent.TIMER_COMPLETE, addEletron);
+			timerToCreateEletrons = new Timer(getDelay(configAtual.delayMin, configAtual.delayMax));
+			timerToCreateEletrons.addEventListener(TimerEvent.TIMER, addEletron);
 			timerToCreateEletrons.start();
 		}
 		
 		public function resetAnimation():void
 		{
-			timerToCreateEletrons.removeEventListener(TimerEvent.TIMER_COMPLETE, addEletron);
+			//timerToCreateEletrons.removeEventListener(TimerEvent.TIMER_COMPLETE, addEletron);
 			//removeEventListener(Event.ENTER_FRAME, checkEletronsSecao);
 			
 			//for each(var eletron:Eletron in eletrons) {
@@ -121,50 +122,87 @@ package
 			//eletrons.splice(0, eletrons.length - 1);
 			
 			sortConfig();
+			for each (var item:Eletron in pilha) 
+			{
+				item.stopMoving();
+				item.configEletron(configAtual.step, configAtual.tmin, configAtual.tmax);
+				item.startMoving();
+			}
 			//addEventListener(Event.ENTER_FRAME, checkEletronsSecao);
-			startAnimation();
+			//startAnimation();
 		}
 		
 		private function addEletron(e:TimerEvent):void 
 		{
-			timerToCreateEletrons.removeEventListener(TimerEvent.TIMER_COMPLETE, addEletron);
+			//timerToCreateEletrons.removeEventListener(TimerEvent.TIMER_COMPLETE, addEletron);
 			
 			//Adiciona o elétron
 			var eletron:Eletron 
-			if(pilha.length==0){
-				eletron = new Eletron(configAtual.step, configAtual.tmin, configAtual.tmax);
-				eletrons.push(eletron);
-			} else {
-				eletron = pilha.pop();
-				eletron.finished = false;
-				eletron.crossed = false;				
-			}
+			//if(pilha.length==0){
+			//if(pilha.length < maxEletrons){
+				//eletron = new Eletron(configAtual.step, configAtual.tmin, configAtual.tmax);
+				//eletrons.push(eletron);
+				//pilha.push(eletron);
+			//} else {
+				//eletron = pilha.pop();
+				//eletron = pilha.splice(0, 1)[0];
+				//eletron.finished = false;
+				//eletron.crossed = false;				
+			//}
+			eletron = new Eletron(configAtual.step, configAtual.tmin, configAtual.tmax);
+			pilha.push(eletron);
 			eletronsLayer.addChild(eletron);
+			posicionaEletron(eletron);
+			
+			//var posEletron:Point = getPosition();
+			//eletron.x = posEletron.x;
+			//eletron.y = posEletron.y;
+			//eletron.startMoving();
+			//pilha.push(eletron);
+
+			//reinicia o timer
+			//startAnimation();
+			if (pilha.length == maxEletrons) {
+				timerToCreateEletrons.removeEventListener(TimerEvent.TIMER_COMPLETE, addEletron);
+				timerToCreateEletrons.stop();
+				timerToCreateEletrons.reset();
+			}
+		}
+		
+		private function posicionaEletron(eletron:Eletron, novo:Boolean = false):void
+		{
+			if (!novo) {
+				eletron.stopMoving();
+				eletron.crossed = false;
+				eletron.finished = false;
+				eletron.configEletron(configAtual.step, configAtual.tmin, configAtual.tmax);
+			}
+			
 			var posEletron:Point = getPosition();
 			eletron.x = posEletron.x;
 			eletron.y = posEletron.y;
 			eletron.startMoving();
-
-			//reinicia o timer
-			startAnimation();
 		}
 		
 		private function checkEletronsSecao(e:Event):void 
 		{
 			//var eletronsToRemove:Vector.<Eletron> = new Vector.<Eletron>();
 			
-			for each(var eletron:Eletron in eletrons) {
+			//for each(var eletron:Eletron in eletrons) {
+			for each(var eletron:Eletron in pilha) {
 				if (eletron.x > 100 && !eletron.crossed && !eletron.finished) {
 					eletron.crossed = true;
 					//eletron.filters = [new GlowFilter()];
-					if(counting) _eletronsCount++;
+					//if(counting) _eletronsCount++;
 				} else if (eletron.x > 500 && !eletron.finished) {
 					//eletronsToRemove.push(eletron);
 					
 					//eletron.stopMoving();
-					eletron.finished = true;
-					if(eletronsLayer.contains(eletron)) eletronsLayer.removeChild(eletron);
-					pilha.push(eletron);
+					//eletron.finished = true;
+					//if(eletronsLayer.contains(eletron)) eletronsLayer.removeChild(eletron);
+					//pilha.push(eletron);
+					posicionaEletron(eletron);
+					if(counting) _eletronsCount++;
 				}
 			}
 			

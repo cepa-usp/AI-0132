@@ -48,7 +48,7 @@ package
 		
 		private function refreshCron(e:Event):void 
 		{
-			display.text = (cron.read() / 1000).toFixed(2).replace(".", ",") + "s";
+			display.text = (cron.read() / 1000).toFixed(1).replace(".", ",") + "s";
 			if (cron.read() / 1000 > 59.9) {
 				//removeEventListener(Event.ENTER_FRAME, refreshCron);
 				//cron.pause();
