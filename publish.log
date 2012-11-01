@@ -1,7 +1,19 @@
-Copying from /home/arthur/host/CEPA/github/AI-0132 to cepa@arquivos.atp.usp.br:/work/PUBLICACAO/atividades-interativas/AI-0132
+Copying from /c/Users/Celso/Desktop/GitHub/AI-0132 to cepa@arquivos.atp.usp.br:/work/PUBLICACAO/atividades-interativas/AI-0132
 building file list ... done
 ./
 AI-0132_SCO.zip
+imsmanifest.xml
+index.html
+js/
+js/ai.js
+js/jquery-1.4.2.min.js
+js/scorm_wrapper.min.js
+js/swfobject.js
+swf/
+swf/AI-0089.swf
+swf/AI-0132.swf
+swf/AI_Loader.swf
+swf/expressInstall.swf
 
-sent 3896 bytes  received 5404 bytes  18600.00 bytes/sec
-total size is 1640168  speedup is 176.36
+sent 99659 bytes  received 15500 bytes  230318.00 bytes/sec
+total size is 2080808  speedup is 18.07
