@@ -7,10 +7,11 @@
 	import cepa.ai.IPlayInstance;
 	import cepa.eval.ProgressiveEvaluator;
 	import cepa.eval.StatsScreen;
+	import cepa.tooltip.ToolTip;
 	import cepa.tutorial.CaixaTexto;
+	import cepa.tutorial.CaixaTextoNova;
 	import cepa.tutorial.Tutorial;
 	import cepa.tutorial.TutorialEvent;
-	import cepa.utils.ToolTip;
 	import com.adobe.serialization.json.JSON;
 	import com.eclecticdesignstudio.motion.Actuate;
 	import fl.motion.easing.Elastic;
@@ -98,6 +99,7 @@
 			}
 			menuBar.btAvaliar.mouseChildren = false;
 			menuBar.btAvaliar.buttonMode = true
+			menuBar.btNovamente.buttonMode = true
 			
 			
 			menuBar.btValendoNota.mouseChildren = false;
@@ -219,7 +221,12 @@
 			
 			
 			var ttAvaliar:ToolTip = new ToolTip(menuBar.btAvaliar, "Avaliar exercício", 12, 0.8, 200, 0.6, 0.6);
+			var ttValendoNota:ToolTip = new ToolTip(menuBar.btValendoNota, "Muda para o modo de avaliação", 12, 0.8, 200, 0.6, 0.6);
 			var ttNovamente:ToolTip = new ToolTip(menuBar.btNovamente, "Nova tentativa", 12, 0.8, 200, 0.6, 0.6);
+			
+			var ttPlayPause:ToolTip = new ToolTip(cronometro.btn_play, "Inicia/para a contagem", 12, 0.8, 200, 0.6, 0.6);
+			var ttReset:ToolTip = new ToolTip(cronometro.btn_reset, "Zera a contagem", 12, 0.8, 200, 0.6, 0.6);
+			
 			//var ttResposta:ToolTip = new ToolTip(menuBar.btVerResposta, "Ver/ocultar respostas", 12, 0.8, 200, 0.6, 0.6);
 			
 			var ttII:ToolTip = new ToolTip(menuBar.ii, "Corrente elétrica", 12, 0.8, 200, 0.6, 0.6);
@@ -234,6 +241,7 @@
 			//menuBar.btVerResposta.verexerc.visible = false;
 			//menuBar.btVerResposta.visible = false;
 			menuBar.btNovamente.visible = false;
+			
 			
 			//eventListener do botão reset da moldura.
 			//btnReset.addEventListener(MouseEvent.CLICK, reset);
@@ -296,24 +304,26 @@
 			//ai.debugTutorial = true;
 			//return;
 			var t:Tutorial = new Tutorial();
+			
 			t.addEventListener(TutorialEvent.BALAO_ABRIU, onBalaoAbriu);
 
-			t.adicionarBalao('Pressione para ver as orientações', new Point(666,388), CaixaTexto.RIGHT, CaixaTexto.FIRST);
-			t.adicionarBalao('Seu objetivo é determinar a corrente elétrica (I) e a densidade de corrente elétrica (j)...', new Point(150,71), CaixaTexto.LEFT, CaixaTexto.FIRST);
-			t.adicionarBalao(' ... neste circuito',new  Point(341,113), CaixaTexto.TOP, CaixaTexto.CENTER);
-			t.adicionarBalao('Suponha que a corrente elétrica é constante no tempo e que a densidade de corrente elétrica é homogênea no fio.', new Point(352,137), CaixaTexto.TOP, CaixaTexto.FIRST);
-			t.adicionarBalao('A animação representa os elétrons movendo-se pelo fio (modelo de Drude)', new Point(370,230), CaixaTexto.RIGHT, CaixaTexto.FIRST);
-			t.adicionarBalao('Esta linha representa uma visão lateral de uma seção reta do fio.', new Point(473,311), CaixaTexto.RIGHT, CaixaTexto.FIRST);
-			t.adicionarBalao('Utilize este contador de elétrons e cronômetro para medir a quantidade de elétrons que atravessam uma seção reta do fio num intervalo de tempo qualquer.', new Point(97,248), CaixaTexto.LEFT, CaixaTexto.FIRST);
-			t.adicionarBalao('Pressione este botão para começar a contar. Pressione-o novamente para parar.', new Point(43,270), CaixaTexto.TOP, CaixaTexto.FIRST);
-			t.adicionarBalao('Use este botão para zerar a contagem.', new Point(100,270), CaixaTexto.TOP, CaixaTexto.FIRST);
-			t.adicionarBalao('Para calcular a densidade de corrente você precisará também da área da seção reta do fio.', new Point(254,436), CaixaTexto.BOTTOM, CaixaTexto.FIRST);
-			t.adicionarBalao('Digite sua resposta aqui.', new Point(201,76), CaixaTexto.LEFT, CaixaTexto.CENTER);
-			t.adicionarBalao('Quando tiver terminado, pressione este botão para verificar. Pressione-o de novo para começar um novo exercício.', new Point(72,177), CaixaTexto.BOTTOM, CaixaTexto.FIRST);
-			t.adicionarBalao('Quando estiver pronto(a) para ser avaliado(a), pressione este botão.', new Point(173,178), CaixaTexto.BOTTOM, CaixaTexto.FIRST);
-			t.adicionarBalao('Veja seu desempenho aqui.', new Point(683,299), CaixaTexto.RIGHT, CaixaTexto.FIRST);
+			t.adicionarBalao('Pressione para ver as orientações', new Point(666,388), CaixaTextoNova.RIGHT, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Seu objetivo é determinar a corrente elétrica (I) e a densidade de corrente elétrica (j)...', new Point(150,71), CaixaTextoNova.LEFT, CaixaTextoNova.FIRST);
+			t.adicionarBalao(' ... neste circuito',new  Point(341,113), CaixaTextoNova.TOP, CaixaTextoNova.CENTER);
+			t.adicionarBalao('Suponha que a corrente elétrica é constante no tempo e que a densidade de corrente elétrica é homogênea no fio.', new Point(352,137), CaixaTextoNova.TOP, CaixaTextoNova.FIRST);
+			t.adicionarBalao('A animação representa os elétrons movendo-se pelo fio (modelo de Drude)', new Point(370,230), CaixaTextoNova.RIGHT, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Esta linha representa uma visão lateral de uma seção reta do fio.', new Point(463,311), CaixaTextoNova.RIGHT, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Utilize este contador de elétrons e cronômetro para medir a quantidade de elétrons que atravessam uma seção reta do fio num intervalo de tempo qualquer.', new Point(97,248), CaixaTextoNova.LEFT, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Pressione este botão para começar a contar. Pressione-o novamente para parar.', new Point(43,270), CaixaTextoNova.TOP, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Use este botão para zerar a contagem.', new Point(100,270), CaixaTextoNova.TOP, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Para calcular a densidade de corrente você precisará também da área da seção reta do fio.', new Point(254,436), CaixaTextoNova.BOTTOM, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Digite sua resposta aqui.', new Point(201,76), CaixaTextoNova.LEFT, CaixaTextoNova.CENTER);
+			t.adicionarBalao('Quando tiver terminado, pressione este botão para verificar. Pressione-o de novo para começar um novo exercício.', new Point(72,177), CaixaTextoNova.BOTTOM, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Quando estiver pronto(a) para ser avaliado(a), pressione este botão.', new Point(173,178), CaixaTextoNova.BOTTOM, CaixaTextoNova.FIRST);
+			t.adicionarBalao('Veja seu desempenho aqui.', new Point(683,299), CaixaTextoNova.RIGHT, CaixaTextoNova.FIRST);
 
-			t.iniciar(this.stage);
+			t.iniciar(this.stage, true);
+			
 
 		}
 		
