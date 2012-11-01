@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuBar" itemID="5061eb9c-00000208" linkageExportForAS="true" linkageClassName="MenuBar" lastModified="1351609239" lastUniqueIdentifier="14">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuBar" itemID="5061eb9c-00000208" linkageExportForAS="true" linkageClassName="MenuBar" lastModified="1351775356" lastUniqueIdentifier="14">
   <timeline>
     <DOMTimeline name="MenuBar">
       <layers>
@@ -84,8 +84,11 @@
                 </DOMSymbolInstance>
                 <DOMDynamicText name="densidadeUnitAnswer" width="36.05" height="16.8" isSelectable="false">
                   <matrix>
-                    <Matrix tx="146.45" ty="-329.7"/>
+                    <Matrix a="0.957611083984375" tx="147.2" ty="-329.7"/>
                   </matrix>
+                  <transformationPoint>
+                    <Point x="18" y="8.4"/>
+                  </transformationPoint>
                   <textRuns>
                     <DOMTextRun>
                       <characters>A/m²</characters>
@@ -137,7 +140,7 @@
                     <DOMTextRun>
                       <characters></characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -170,7 +173,7 @@
                 </DOMInputText>
                 <DOMDynamicText name="correnteUnit" width="13" height="16.8" isSelectable="false">
                   <matrix>
-                    <Matrix tx="159" ty="-437.6"/>
+                    <Matrix a="0.968795776367188" tx="158.9" ty="-437.6"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -202,7 +205,7 @@
                     <DOMTextRun>
                       <characters></characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" size="15" bitmapSize="300" face="ArialMT"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -235,7 +238,7 @@
                 </DOMInputText>
                 <DOMDynamicText name="densidadeUnit" width="36.05" height="16.8" isSelectable="false">
                   <matrix>
-                    <Matrix tx="158" ty="-361.6"/>
+                    <Matrix a="0.968795776367188" tx="157.9" ty="-361.6"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -261,17 +264,17 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="CertoErrado" name="answerCorrente" centerPoint3DX="218.55" centerPoint3DY="-402.45">
+                <DOMSymbolInstance libraryItemName="CertoErrado" name="answerCorrente" centerPoint3DX="218.95" centerPoint3DY="-429.55">
                   <matrix>
-                    <Matrix tx="187.55" ty="-402.45"/>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="194.15" ty="-429.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="31"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="CertoErrado" name="answerDensidade" centerPoint3DX="218.55" centerPoint3DY="-324.25">
+                <DOMSymbolInstance libraryItemName="CertoErrado" name="answerDensidade" centerPoint3DX="218.95" centerPoint3DY="-352.7">
                   <matrix>
-                    <Matrix tx="187.55" ty="-324.25"/>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="194.15" ty="-352.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="31"/>
@@ -281,7 +284,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -297,11 +300,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 6" color="#808080">
+        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
                     <DOMSymbolInstance libraryItemName="FundoBt" centerPoint3DX="53.7" centerPoint3DY="-406">
                       <matrix>
@@ -340,13 +343,6 @@
                           <GradientEntry color="#E9E9E9" ratio="1"/>
                         </LinearGradient>
                       </fill>
-                      <stroke>
-                        <SolidStroke scaleMode="normal" weight="2">
-                          <fill>
-                            <SolidColor color="#66FFFF"/>
-                          </fill>
-                        </SolidStroke>
-                      </stroke>
                     </DOMRectangleObject>
                     <DOMGroup>
                       <members>
@@ -367,7 +363,7 @@
                 </DOMGroup>
                 <DOMGroup>
                   <members>
-                    <DOMRectangleObject objectWidth="45" objectHeight="18" x="7" y="6.9" selected="true" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
+                    <DOMRectangleObject objectWidth="45" objectHeight="18" x="7" y="6.9" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
                       <matrix>
                         <Matrix a="1.19999694824219" d="1.19999694824219" tx="38.6" ty="-448.25"/>
                       </matrix>
@@ -381,13 +377,6 @@
                           <GradientEntry color="#E9E9E9" ratio="1"/>
                         </LinearGradient>
                       </fill>
-                      <stroke>
-                        <SolidStroke scaleMode="normal" weight="2">
-                          <fill>
-                            <SolidColor color="#66FFFF"/>
-                          </fill>
-                        </SolidStroke>
-                      </stroke>
                     </DOMRectangleObject>
                     <DOMGroup>
                       <members>
@@ -399,8 +388,8 @@
                           </fills>
                           <edges>
                             <Edge fillStyle1="1" edges="
-!1000 -8423[1000 -8399 1009 -8382!1009 -8382[964 -8396 964 -8453!964 -8453|964 -8709!964 -8709[964 -8782 1036 -8783!1036 -8783[1037 -8783 1039 -8783!1039 -8783|1904 -8783!1904 -8783[1954 -8783 1971 -8748!1971 -8748[1957 -8753 1940 -8753
-!1940 -8753|1071 -8753!1071 -8753[1001 -8751 1000 -8682!1000 -8682|1000 -8423"/>
+!964 -8453|964 -8709!964 -8709[964 -8782 1036 -8783!1036 -8783[1037 -8783 1039 -8783!1039 -8783|1904 -8783!1904 -8783[1954 -8783 1971 -8748!1971 -8748[1957 -8753 1940 -8753!1940 -8753|1071 -8753!1071 -8753[1001 -8751 1000 -8682!1000 -8682
+|1000 -8423!1000 -8423[1000 -8399 1009 -8382!1009 -8382[964 -8396 964 -8453"/>
                           </edges>
                         </DOMShape>
                       </members>
@@ -409,7 +398,7 @@
                 </DOMGroup>
                 <DOMGroup>
                   <members>
-                    <DOMRectangleObject objectWidth="45" objectHeight="18" x="7" y="6.9" selected="true" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
+                    <DOMRectangleObject objectWidth="45" objectHeight="18" x="7" y="6.9" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
                       <matrix>
                         <Matrix a="1.19999694824219" d="1.19999694824219" tx="38.6" ty="-371.75"/>
                       </matrix>
@@ -423,13 +412,6 @@
                           <GradientEntry color="#E9E9E9" ratio="1"/>
                         </LinearGradient>
                       </fill>
-                      <stroke>
-                        <SolidStroke scaleMode="normal" weight="2">
-                          <fill>
-                            <SolidColor color="#66FFFF"/>
-                          </fill>
-                        </SolidStroke>
-                      </stroke>
                     </DOMRectangleObject>
                     <DOMGroup>
                       <members>
@@ -465,13 +447,6 @@
                           <GradientEntry color="#E9E9E9" ratio="1"/>
                         </LinearGradient>
                       </fill>
-                      <stroke>
-                        <SolidStroke scaleMode="normal" weight="2">
-                          <fill>
-                            <SolidColor color="#66FFFF"/>
-                          </fill>
-                        </SolidStroke>
-                      </stroke>
                     </DOMRectangleObject>
                     <DOMGroup>
                       <members>
@@ -483,8 +458,8 @@
                           </fills>
                           <edges>
                             <Edge fillStyle1="1" edges="
-!2831 -9054[2761 -9052 2760 -8983!2760 -8983|2760 -8724!2760 -8724[2760 -8700 2769 -8683!2769 -8683[2724 -8697 2724 -8754!2724 -8754|2724 -9010!2724 -9010[2724 -9081 2792 -9084!2792 -9084[2794 -9084 2796 -9084!2796 -9084[2797 -9084 2799
- -9084!2799 -9084|3051 -9084!3051 -9084[3101 -9084 3118 -9049!3118 -9049[3104 -9054 3087 -9054!3087 -9054|2831 -9054"/>
+!2792 -9084[2794 -9084 2796 -9084!2796 -9084[2797 -9084 2799 -9084!2799 -9084|3051 -9084!3051 -9084[3101 -9084 3118 -9049!3118 -9049[3104 -9054 3087 -9054!3087 -9054|2831 -9054!2831 -9054[2761 -9052 2760 -8983!2760 -8983|2760 -8724!2760
+ -8724[2760 -8700 2769 -8683!2769 -8683[2724 -8697 2724 -8754!2724 -8754|2724 -9010!2724 -9010[2724 -9081 2792 -9084"/>
                           </edges>
                         </DOMShape>
                       </members>

@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="700" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" viewAngle3D="59.3117946966027" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="700" height="480" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="59.3117946966027" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="Base" itemID="4cafb00f-000001ee"/>
           <DOMFolderItem name="Botões" itemID="4eb82563-00000380"/>
@@ -133,7 +133,7 @@
           <Include href="Buttons/CloseButton.xml" itemIcon="0" loadImmediate="false" itemID="4eba74b3-00000257" lastModified="1298036208"/>
           <Include href="Buttons/VerExerc.xml" itemID="4ea1ce7c-00000273" lastModified="1319482222"/>
           <Include href="Buttons/VerResposta.xml" itemID="4ea1ce70-0000026f" lastModified="1319226992"/>
-          <Include href="CertoErrado.xml" itemID="4eb94a68-0000024e" lastModified="1320766121"/>
+          <Include href="CertoErrado.xml" itemID="4eb94a68-0000024e" lastModified="1351775314"/>
           <Include href="Component Assets/_private/Component_avatar.xml" loadImmediate="false" itemID="44f89322-00000020" lastModified="1168286780"/>
           <Include href="Component Assets/Shared/focusRectSkin.xml" itemID="44d8b6f8-00000055" lastModified="1168290361"/>
           <Include href="Component Assets/SliderSkins/SliderThumb_disabledSkin.xml" itemID="44b6b7cb-00000026" lastModified="1168290382"/>
@@ -152,7 +152,7 @@
           <Include href="Luz_fraca.xml" loadImmediate="false" itemID="4eb822e4-0000081a" lastModified="1320690404"/>
           <Include href="MascaraEletrons.xml" itemID="4eb8191a-00000266" lastModified="1351531823"/>
           <Include href="MCarea.xml" loadImmediate="false" itemID="4eba79ef-00000275" lastModified="1321021751"/>
-          <Include href="MenuBar.xml" itemID="5061eb9c-00000208" lastModified="1351609239"/>
+          <Include href="MenuBar.xml" itemID="5061eb9c-00000208" lastModified="1351775356"/>
           <Include href="Objects/Cronometro.xml" itemID="4eb28d9a-000001de" lastModified="1321037906"/>
           <Include href="PointingArrow.xml" itemID="4ea985e6-00000338" lastModified="1320077849"/>
           <Include href="Secao1.xml" loadImmediate="false" itemID="4eb93004-00000769" lastModified="1320775302"/>
@@ -163,7 +163,7 @@
           <Include href="Telas/AboutScreen132.xml" itemID="506b2ad6-00000250" lastModified="1349200816"/>
           <Include href="Telas/InfoScreen132.xml" itemID="506b2ab0-0000024f" lastModified="1349200607"/>
           <Include href="Telas/WarningScreen.xml" itemID="4eba7503-0000026f" lastModified="1349200545"/>
-          <Include href="UpDown.xml" itemID="4d5d2d17-00000351" lastModified="1351609484"/>
+          <Include href="UpDown.xml" itemID="4d5d2d17-00000351" lastModified="1351704190"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -172,14 +172,6 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="MascaraEletrons" name="mascara" centerPoint3DX="504.5" centerPoint3DY="274.25">
-                                             <matrix>
-                                                  <Matrix a="0.761947631835938" tx="317.5" ty="180.75"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="245.4" y="93.5"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
                                         <DOMGroup>
                                              <transformationPoint>
                                                   <Point x="484.25" y="281.3"/>
@@ -208,9 +200,106 @@
  7232!7889 7232[7146 6489 7146 5438!7146 5438[7146 4386 7889 3643!7889 3643[8633 2899 9685 2899"/>
                                                        </edges>
                                                   </DOMShape>
+                                                  <DOMGroup>
+                                                       <members>
+                                                            <DOMShape>
+                                                                 <fills>
+                                                                      <FillStyle index="1">
+                                                                           <SolidColor color="#FF6600"/>
+                                                                      </FillStyle>
+                                                                      <FillStyle index="2">
+                                                                           <LinearGradient>
+                                                                                <matrix>
+                                                                                     <Matrix a="0" b="-0.128173828125" c="0.152587890625" d="0" tx="483.8" ty="274"/>
+                                                                                </matrix>
+                                                                                <GradientEntry ratio="0"/>
+                                                                                <GradientEntry color="#292929" ratio="0.0549019607843137"/>
+                                                                                <GradientEntry color="#333333" ratio="0.231372549019608"/>
+                                                                                <GradientEntry color="#666666" ratio="0.517647058823529"/>
+                                                                                <GradientEntry color="#2A2A2A" ratio="0.827450980392157"/>
+                                                                                <GradientEntry color="#1D1D1D" ratio="0.976470588235294"/>
+                                                                                <GradientEntry ratio="1"/>
+                                                                           </LinearGradient>
+                                                                      </FillStyle>
+                                                                 </fills>
+                                                                 <edges>
+                                                                      <Edge fillStyle1="2" edges="
+!11327 3562[#2C4E.81 #DF7.DA 11358 3590!11358 3590|11359 3591!11359 3591[11402 3631 11443 3672!11443 3672[12176 4404 12176 5439!12176 5439[12176 6474 11443 7207!11443 7207[11224 7426 10977 7580!10977 7580|8375 7580!8375 7580[8128 7426
+ 7908 7207!7908 7207[7176 6474 7176 5439!7176 5439[7176 4404 7908 3672!7908 3672[7949 3631 7993 3591!7993 3591|7994 3590!7994 3590[8112 3481 8237 3391!8237 3391|8239 3391!8239 3391|8258 3380!8258 3380|11099 3380!11099 3380[11110 3388
+ 11121 3396!11121 3396[#2B9C.D2 #D63.F8 11208 3462!11208 3462[#2C04.42 #DB5.F4 11327 3562"/>
+                                                                      <Edge fillStyle1="1" edges="
+!11066 3371|8288 3371!8288 3371[8363 3314 8443 3266!8443 3266[8496 3233 8552 3204!8552 3204[8579 3190 8608 3176!8608 3176[8624 3168 8642 3160!8642 3160|10725 3160!10725 3160[10741 3168 10757 3176!10757 3176[10842 3219 10917 3266!10917
+ 3266[10998 3316 11066 3371"/>
+                                                                      <Edge fillStyle0="1" edges="
+!8889 7806|10513 7806!10513 7806[10807 7690 10949 7590!10949 7590|8418 7590!8418 7590[8633 7713 8889 7806"/>
+                                                                 </edges>
+                                                            </DOMShape>
+                                                            <DOMGroup>
+                                                                 <matrix>
+                                                                      <Matrix a="0.962570190429688" b="-6.103515625e-005" c="-4.57763671875e-005" d="0.99981689453125" tx="16.55" ty="-1.3"/>
+                                                                 </matrix>
+                                                                 <transformationPoint>
+                                                                      <Point x="413.7" y="164.7"/>
+                                                                 </transformationPoint>
+                                                                 <members>
+                                                                      <DOMShape>
+                                                                           <matrix>
+                                                                                <Matrix a="0.962570190429688" b="-6.103515625e-005" c="-4.57763671875e-005" d="0.99981689453125" tx="16.55" ty="-1.3"/>
+                                                                           </matrix>
+                                                                           <transformationPoint>
+                                                                                <Point x="413.7" y="164.7"/>
+                                                                           </transformationPoint>
+                                                                           <strokes>
+                                                                                <StrokeStyle index="1">
+                                                                                     <SolidStroke scaleMode="normal">
+                                                                                          <fill>
+                                                                                               <SolidColor color="#993300"/>
+                                                                                          </fill>
+                                                                                     </SolidStroke>
+                                                                                </StrokeStyle>
+                                                                           </strokes>
+                                                                           <edges>
+                                                                                <Edge strokeStyle="1" edges="
+!10190 3366|10481 3182!9831 3366|10122 3182!9758 3366|10049 3182!10123 3366|10414 3182!9911 3366|10202 3182!9986 3366|10277 3182!10060 3366|10351 3182!11051 3366|11088 3343!10984 3366|11053 3323!10693 3366|10901 3235!10553 3366|10828
+ 3192!10620 3366|10863 3213!10848 3366|10982 3282!10773 3366|10943 3259!10921 3366|11020 3304!10490 3366|10781 3182!10418 3366|10709 3182!10343 3366|10634 3182!10263 3366|10554 3182!8536 3366|8827 3182!8616 3366|8907 3182!8463 3366|8754
+ 3182!8333 3366|8624 3182!8396 3366|8687 3182!9323 3366|9614 3182!9396 3366|9687 3182!8961 3366|9252 3182!9041 3366|9332 3182!9116 3366|9407 3182!9193 3366|9484 3182!9256 3366|9547 3182!8888 3366|9179 3182!8821 3366|9112 3182!8758 3366
+|9049 3182!8691 3366|8982 3182!9691 3366|9982 3182!9628 3366|9919 3182!9551 3366|9842 3182!9476 3366|9767 3182"/>
+                                                                           </edges>
+                                                                      </DOMShape>
+                                                                 </members>
+                                                            </DOMGroup>
+                                                            <DOMGroup>
+                                                                 <matrix>
+                                                                      <Matrix a="0.99981689453125" b="4.57763671875e-005" c="-4.57763671875e-005" d="0.99981689453125" tx="1.9" ty="-0.25"/>
+                                                                 </matrix>
+                                                                 <members>
+                                                                      <DOMShape>
+                                                                           <matrix>
+                                                                                <Matrix a="0.99981689453125" b="4.57763671875e-005" c="-4.57763671875e-005" d="0.99981689453125" tx="1.9" ty="-0.25"/>
+                                                                           </matrix>
+                                                                           <strokes>
+                                                                                <StrokeStyle index="1">
+                                                                                     <SolidStroke scaleMode="normal">
+                                                                                          <fill>
+                                                                                               <SolidColor color="#993300"/>
+                                                                                          </fill>
+                                                                                     </SolidStroke>
+                                                                                </StrokeStyle>
+                                                                           </strokes>
+                                                                           <edges>
+                                                                                <Edge strokeStyle="1" edges="
+!8504 7603|8724 7742!8584 7603|8875 7787!9291 7603|9582 7787!9364 7603|9655 7787!8929 7603|9220 7787!9009 7603|9300 7787!9084 7603|9375 7787!9161 7603|9452 7787!9224 7603|9515 7787!8856 7603|9147 7787!8789 7603|9080 7787!8726 7603|9017
+ 7787!8659 7603|8950 7787!10158 7603|10449 7787!9799 7603|10090 7787!9726 7603|10017 7787!10091 7603|10382 7787!9879 7603|10170 7787!9954 7603|10245 7787!10028 7603|10319 7787!10231 7603|10522 7787!10741 7603|10804 7643!10816 7603|10845
+ 7621!10661 7603|10761 7666!10588 7603|10721 7687!10521 7603|10684 7706!10311 7603|10569 7766!10386 7603|10610 7745!10458 7603|10649 7724!9659 7603|9950 7787!9596 7603|9887 7787!9519 7603|9810 7787!9444 7603|9735 7787"/>
+                                                                           </edges>
+                                                                      </DOMShape>
+                                                                 </members>
+                                                            </DOMGroup>
+                                                       </members>
+                                                  </DOMGroup>
                                                   <DOMOvalObject objectWidth="241.95" objectHeight="241.95" x="389.95" y="141" endAngle="0">
                                                        <matrix>
-                                                            <Matrix a="1.03305053710938" d="1.03305053710938" tx="-43.9" ty="1.35"/>
+                                                            <Matrix a="1.03305053710938" d="1.03305053710938" tx="-43.5" ty="1.35"/>
                                                        </matrix>
                                                        <transformationPoint>
                                                             <Point x="510.95" y="261.95"/>
@@ -220,14 +309,22 @@
                                                                  <matrix>
                                                                       <Matrix a="0.14947509765625" d="0.14947509765625" tx="510.95" ty="261.95"/>
                                                                  </matrix>
-                                                                 <GradientEntry color="#333333" ratio="0.388235294117647"/>
-                                                                 <GradientEntry color="#1F1F1F" ratio="0.913725490196078"/>
-                                                                 <GradientEntry color="#999999" ratio="1"/>
+                                                                 <GradientEntry color="#CCCCCC" alpha="0" ratio="0.913725490196078"/>
+                                                                 <GradientEntry color="#CCCCCC" alpha="0.501960784313725" ratio="0.956862745098039"/>
+                                                                 <GradientEntry ratio="1"/>
                                                             </RadialGradient>
                                                        </fill>
                                                   </DOMOvalObject>
                                              </members>
                                         </DOMGroup>
+                                        <DOMSymbolInstance libraryItemName="MascaraEletrons" name="mascara" centerPoint3DX="504.5" centerPoint3DY="274.25">
+                                             <matrix>
+                                                  <Matrix a="0.761947631835938" tx="317.5" ty="180.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="245.4" y="93.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                         <DOMOvalObject objectWidth="10.25" objectHeight="10.25" x="357.45" y="425.15" endAngle="0">
                                              <matrix>
                                                   <Matrix tx="-5.5" ty="-2.5"/>
@@ -243,6 +340,137 @@
                                                   </SolidStroke>
                                              </stroke>
                                         </DOMOvalObject>
+                                        <DOMGroup>
+                                             <matrix>
+                                                  <Matrix tx="-106.75" ty="-2.5"/>
+                                             </matrix>
+                                             <members>
+                                                  <DOMGroup selected="true">
+                                                       <matrix>
+                                                            <Matrix tx="121" ty="-18.35"/>
+                                                       </matrix>
+                                                       <members>
+                                                            <DOMGroup>
+                                                                 <matrix>
+                                                                      <Matrix a="1.77543640136719" d="1.77543640136719" tx="-41.2" ty="-303.15"/>
+                                                                 </matrix>
+                                                                 <members>
+                                                                      <DOMShape>
+                                                                           <matrix>
+                                                                                <Matrix a="1.77543640136719" d="1.77543640136719" tx="-41.2" ty="-303.15"/>
+                                                                           </matrix>
+                                                                           <fills>
+                                                                                <FillStyle index="1">
+                                                                                     <SolidColor/>
+                                                                                </FillStyle>
+                                                                           </fills>
+                                                                           <strokes>
+                                                                                <StrokeStyle index="1">
+                                                                                     <SolidStroke scaleMode="normal">
+                                                                                          <fill>
+                                                                                               <SolidColor/>
+                                                                                          </fill>
+                                                                                     </SolidStroke>
+                                                                                </StrokeStyle>
+                                                                           </strokes>
+                                                                           <edges>
+                                                                                <Edge fillStyle0="1" strokeStyle="1" edges="
+!5103 7979S5|5147 8085!5147 8085|5191 7979!5191 7979|5103 7979"/>
+                                                                           </edges>
+                                                                      </DOMShape>
+                                                                 </members>
+                                                            </DOMGroup>
+                                                            <DOMGroup>
+                                                                 <matrix>
+                                                                      <Matrix tx="121" ty="-18.35"/>
+                                                                 </matrix>
+                                                                 <members>
+                                                                      <DOMShape>
+                                                                           <matrix>
+                                                                                <Matrix tx="121" ty="-18.35"/>
+                                                                           </matrix>
+                                                                           <strokes>
+                                                                                <StrokeStyle index="1">
+                                                                                     <SolidStroke scaleMode="normal" weight="3">
+                                                                                          <fill>
+                                                                                               <SolidColor/>
+                                                                                          </fill>
+                                                                                     </SolidStroke>
+                                                                                </StrokeStyle>
+                                                                           </strokes>
+                                                                           <edges>
+                                                                                <Edge strokeStyle="1" edges="
+!5895 8461|5895 8175"/>
+                                                                           </edges>
+                                                                      </DOMShape>
+                                                                 </members>
+                                                            </DOMGroup>
+                                                       </members>
+                                                  </DOMGroup>
+                                                  <DOMGroup selected="true">
+                                                       <matrix>
+                                                            <Matrix d="-1" tx="121" ty="855.35"/>
+                                                       </matrix>
+                                                       <members>
+                                                            <DOMGroup>
+                                                                 <matrix>
+                                                                      <Matrix d="-1" tx="121" ty="855.35"/>
+                                                                 </matrix>
+                                                                 <members>
+                                                                      <DOMShape>
+                                                                           <matrix>
+                                                                                <Matrix d="-1" tx="121" ty="855.35"/>
+                                                                           </matrix>
+                                                                           <fills>
+                                                                                <FillStyle index="1">
+                                                                                     <SolidColor/>
+                                                                                </FillStyle>
+                                                                           </fills>
+                                                                           <strokes>
+                                                                                <StrokeStyle index="1">
+                                                                                     <SolidStroke scaleMode="normal">
+                                                                                          <fill>
+                                                                                               <SolidColor/>
+                                                                                          </fill>
+                                                                                     </SolidStroke>
+                                                                                </StrokeStyle>
+                                                                           </strokes>
+                                                                           <edges>
+                                                                                <Edge fillStyle0="1" strokeStyle="1" edges="
+!5894 8658|5972 8470!5972 8470|5816 8470!5816 8470|5894 8658"/>
+                                                                           </edges>
+                                                                      </DOMShape>
+                                                                 </members>
+                                                            </DOMGroup>
+                                                            <DOMGroup>
+                                                                 <matrix>
+                                                                      <Matrix d="-1" tx="121" ty="855.35"/>
+                                                                 </matrix>
+                                                                 <members>
+                                                                      <DOMShape>
+                                                                           <matrix>
+                                                                                <Matrix d="-1" tx="121" ty="855.35"/>
+                                                                           </matrix>
+                                                                           <strokes>
+                                                                                <StrokeStyle index="1">
+                                                                                     <SolidStroke scaleMode="normal" weight="3">
+                                                                                          <fill>
+                                                                                               <SolidColor/>
+                                                                                          </fill>
+                                                                                     </SolidStroke>
+                                                                                </StrokeStyle>
+                                                                           </strokes>
+                                                                           <edges>
+                                                                                <Edge strokeStyle="1" edges="
+!5895 8461|5895 8175"/>
+                                                                           </edges>
+                                                                      </DOMShape>
+                                                                 </members>
+                                                            </DOMGroup>
+                                                       </members>
+                                                  </DOMGroup>
+                                             </members>
+                                        </DOMGroup>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -287,7 +515,7 @@
                                                             <DropShadowFilter distance="3" strength="0.99"/>
                                                        </filters>
                                                   </DOMSymbolInstance>
-                                                  <DOMRectangleObject objectWidth="94.4" objectHeight="28" x="14.5" y="128.5" selected="true" lockFlag="true" topLeftRadius="3.3" topRightRadius="3.3" bottomLeftRadius="3.3" bottomRightRadius="3.3">
+                                                  <DOMRectangleObject objectWidth="94.4" objectHeight="28" x="14.5" y="128.5" lockFlag="true" topLeftRadius="3.3" topRightRadius="3.3" bottomLeftRadius="3.3" bottomRightRadius="3.3">
                                                        <matrix>
                                                             <Matrix tx="2.9" ty="117.55"/>
                                                        </matrix>
@@ -295,7 +523,7 @@
                                                             <SolidColor alpha="0.101960784313725"/>
                                                        </fill>
                                                   </DOMRectangleObject>
-                                                  <DOMRectangleObject objectWidth="40" objectHeight="18" x="7" y="6.9" selected="true" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
+                                                  <DOMRectangleObject objectWidth="40" objectHeight="18" x="7" y="6.9" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
                                                        <matrix>
                                                             <Matrix tx="10.3" ty="216.55"/>
                                                        </matrix>
@@ -309,13 +537,6 @@
                                                                  <GradientEntry color="#E9E9E9" ratio="1"/>
                                                             </LinearGradient>
                                                        </fill>
-                                                       <stroke>
-                                                            <SolidStroke scaleMode="normal" weight="2">
-                                                                 <fill>
-                                                                      <SolidColor color="#66FFFF"/>
-                                                                 </fill>
-                                                            </SolidStroke>
-                                                       </stroke>
                                                   </DOMRectangleObject>
                                                   <DOMGroup>
                                                        <members>
@@ -333,7 +554,7 @@
                                                             </DOMShape>
                                                        </members>
                                                   </DOMGroup>
-                                                  <DOMRectangleObject objectWidth="45" objectHeight="18" x="7" y="6.9" selected="true" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
+                                                  <DOMRectangleObject objectWidth="45" objectHeight="18" x="7" y="6.9" lockFlag="true" topLeftRadius="5.25" topRightRadius="5.25" bottomLeftRadius="5.25" bottomRightRadius="5.25">
                                                        <matrix>
                                                             <Matrix tx="60.8" ty="217.25"/>
                                                        </matrix>
@@ -347,13 +568,6 @@
                                                                  <GradientEntry color="#E9E9E9" ratio="1"/>
                                                             </LinearGradient>
                                                        </fill>
-                                                       <stroke>
-                                                            <SolidStroke scaleMode="normal" weight="2">
-                                                                 <fill>
-                                                                      <SolidColor color="#66FFFF"/>
-                                                                 </fill>
-                                                            </SolidStroke>
-                                                       </stroke>
                                                   </DOMRectangleObject>
                                                   <DOMGroup>
                                                        <members>
@@ -371,7 +585,7 @@
                                                             </DOMShape>
                                                        </members>
                                                   </DOMGroup>
-                                                  <DOMDynamicText selected="true" width="34.1" height="17.2" includeOutlines="true" isSelectable="false" lineType="multiline">
+                                                  <DOMDynamicText width="34.1" height="17.2" includeOutlines="true" isSelectable="false" lineType="multiline">
                                                        <matrix>
                                                             <Matrix tx="19.75" ty="225.6"/>
                                                        </matrix>
@@ -384,7 +598,7 @@
                                                             </DOMTextRun>
                                                        </textRuns>
                                                   </DOMDynamicText>
-                                                  <DOMStaticText selected="true" width="57.95" height="11.4" isSelectable="false">
+                                                  <DOMStaticText width="57.95" height="11.4" isSelectable="false">
                                                        <matrix>
                                                             <Matrix tx="17.25" ty="210.95"/>
                                                        </matrix>
@@ -397,7 +611,7 @@
                                                             </DOMTextRun>
                                                        </textRuns>
                                                   </DOMStaticText>
-                                                  <DOMDynamicText selected="true" width="50.95" height="22.35" includeOutlines="true" isSelectable="false">
+                                                  <DOMDynamicText width="50.95" height="22.35" includeOutlines="true" isSelectable="false">
                                                        <matrix>
                                                             <Matrix a="0.734344482421875" d="0.734344482421875" tx="72.6" ty="225.25"/>
                                                        </matrix>
@@ -413,7 +627,7 @@
                                                             </DOMTextRun>
                                                        </textRuns>
                                                   </DOMDynamicText>
-                                                  <DOMStaticText selected="true" width="57.95" height="11.4" isSelectable="false">
+                                                  <DOMStaticText width="57.95" height="11.4" isSelectable="false">
                                                        <matrix>
                                                             <Matrix tx="61.5" ty="210.9"/>
                                                        </matrix>
@@ -697,11 +911,17 @@
                                              </edges>
                                         </DOMShape>
                                         <DOMGroup>
+                                             <matrix>
+                                                  <Matrix tx="-43.4" ty="-0.85"/>
+                                             </matrix>
                                              <transformationPoint>
                                                   <Point x="182.2" y="421.65"/>
                                              </transformationPoint>
                                              <members>
                                                   <DOMShape>
+                                                       <matrix>
+                                                            <Matrix tx="-43.4" ty="-0.85"/>
+                                                       </matrix>
                                                        <transformationPoint>
                                                             <Point x="182.2" y="421.65"/>
                                                        </transformationPoint>
@@ -727,8 +947,14 @@
                                              </members>
                                         </DOMGroup>
                                         <DOMGroup>
+                                             <matrix>
+                                                  <Matrix tx="-43.4" ty="-0.85"/>
+                                             </matrix>
                                              <members>
                                                   <DOMShape>
+                                                       <matrix>
+                                                            <Matrix tx="-43.4" ty="-0.85"/>
+                                                       </matrix>
                                                        <fills>
                                                             <FillStyle index="1">
                                                                  <SolidColor/>
@@ -736,7 +962,7 @@
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!3805 7373[3823 7355 3849 7355!3849 7355[3875 7355 3893 7373!3893 7373[3911 7391 3911 7417!3911 7417[3911 7443 3893 7462!3893 7462[3875 7480 3849 7480!3849 7480[3823 7480 3805 7462!3805 7462[3787 7443 3787 7417!3787 7417[3787 7391 3805
+!3893 7373[3911 7391 3911 7417!3911 7417[3911 7443 3893 7462!3893 7462[3875 7480 3849 7480!3849 7480[3823 7480 3805 7462!3805 7462[3787 7443 3787 7417!3787 7417[3787 7391 3805 7373!3805 7373[3823 7355 3849 7355!3849 7355[3875 7355 3893
  7373!3875 7551|3788 7853!3788 7853[3781 7879 3781 7887!3781 7887[3781 7892 3784 7896!3784 7896[3788 7900 3793 7900!3793 7900[3800 7900 3807 7894!3807 7894[3826 7878 3853 7836!3853 7836|3867 7845!3867 7845[3803 7957 3731 7957!3731 7957
 [3703 7957 3687 7942!3687 7942[3670 7926 3670 7902!3670 7902[3670 7886 3678 7862!3678 7862|3737 7659!3737 7659[3745 7629 3745 7614!3745 7614[3745 7605 3737 7598!3737 7598[3729 7591 3715 7591!3715 7591[3709 7591 3700 7591!3700 7591|3705
  7574!3705 7574|3850 7551!3850 7551|3875 7551"/>
@@ -752,9 +978,9 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMStaticText width="294.15" height="22.35" isSelectable="false">
+                                        <DOMStaticText width="180.3" height="46.7" isSelectable="false">
                                              <matrix>
-                                                  <Matrix a="0.81024169921875" d="0.81024169921875" tx="10.8" ty="449"/>
+                                                  <Matrix a="0.81024169921875" d="0.81024169921875" tx="175.2" ty="389.75"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="147.05" y="11.15"/>
@@ -763,25 +989,25 @@
                                                   <DOMTextRun>
                                                        <characters>Carga do elétron:</characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Arial-BoldMT"/>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Arial-BoldMT"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                                   <DOMTextRun>
-                                                       <characters> 1,6 x 10 </characters>
+                                                       <characters> &#xD;1,6 x 10 </characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                                   <DOMTextRun>
                                                        <characters>-19 </characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" characterPosition="superscript" face="ArialMT"/>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" characterPosition="superscript" face="ArialMT"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                                   <DOMTextRun>
                                                        <characters>C</characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                              </textRuns>
@@ -907,7 +1133,7 @@
                                                                            </fills>
                                                                            <edges>
                                                                                 <Edge fillStyle0="1" edges="
-!11808 1103|11808 1127!11808 1127|12659 1127!12659 1127|12343 610!12343 610|11537 1103!11537 1103|11808 1103!12143 3023|11417 3023!11417 3023|11614 3346!11614 3346|12143 3023!11412 2799|11280 2799!11280 2799|11412 3016!11412 3016|11412
+!11808 1103|11808 1127!11808 1127|12659 1127!12659 1127|12343 610!12343 610|11537 1103!11537 1103|11808 1103!11614 3346|12143 3023!12143 3023|11417 3023!11417 3023|11614 3346!11412 2799|11280 2799!11280 2799|11412 3016!11412 3016|11412
  2799"/>
                                                                                 <Edge cubics="!11537 1103(;11537,1103 11808,1103 11808,1103q11537 1103 11808 1103);"/>
                                                                                 <Edge cubics="!11808 1103(;11808,1103 11808,1127 11808,1127q11808 1103 11808 1127);"/>
@@ -1112,6 +1338,46 @@
                                                   </DOMShape>
                                              </members>
                                         </DOMGroup>
+                                        <DOMStaticText width="294.15" height="22.35" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix a="0.81024169921875" d="0.81024169921875" tx="376.2" ty="449.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="147.05" y="11.15"/>
+                                             </transformationPoint>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Seção reta:</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="Arial-BoldMT"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters> 7 x 10 </characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>-7 </characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" characterPosition="superscript" face="ArialMT"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>m</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" face="ArialMT"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>2</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="20" bitmapSize="400" characterPosition="superscript" face="ArialMT"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -1422,6 +1688,10 @@
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="141140" publishTime="1351774916"/>
+          <PublishItem publishSize="140088" publishTime="1351772366"/>
+          <PublishItem publishSize="140034" publishTime="1351772291"/>
+          <PublishItem publishSize="139972" publishTime="1351770569"/>
           <PublishItem publishSize="612230" publishTime="1351609623"/>
           <PublishItem publishSize="612283" publishTime="1351609567"/>
           <PublishItem publishSize="612174" publishTime="1351609461"/>
@@ -1438,10 +1708,6 @@
           <PublishItem publishSize="615037" publishTime="1351538243"/>
           <PublishItem publishSize="614952" publishTime="1351538183"/>
           <PublishItem publishSize="615088" publishTime="1351538155"/>
-          <PublishItem publishSize="615013" publishTime="1351538135"/>
-          <PublishItem publishSize="615013" publishTime="1351538085"/>
-          <PublishItem publishSize="615161" publishTime="1351538047"/>
-          <PublishItem publishSize="615034" publishTime="1351538039"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="2rmabcidbj.swc">
