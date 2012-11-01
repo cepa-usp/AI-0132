@@ -7,6 +7,9 @@
 	import cepa.ai.IPlayInstance;
 	import cepa.eval.ProgressiveEvaluator;
 	import cepa.eval.StatsScreen;
+	import cepa.tutorial.CaixaTexto;
+	import cepa.tutorial.Tutorial;
+	import cepa.tutorial.TutorialEvent;
 	import cepa.utils.ToolTip;
 	import com.adobe.serialization.json.JSON;
 	import com.eclecticdesignstudio.motion.Actuate;
@@ -71,6 +74,7 @@
 			hideAnswer();
 			
 			ai = new AI(this);
+			ai.container.optionButtons.addAllButtons();
 			ai.container.setMessageTextVisible(false);
 			ai.debugMode = true;
 			var eval:ProgressiveEvaluator = new ProgressiveEvaluator(ai);
@@ -287,12 +291,43 @@
 			areasSecao.push(new NotCi(4, -7));
 		}
 		
+		
+		private function criarTutorial() {
+			//ai.debugTutorial = true;
+			//return;
+			var t:Tutorial = new Tutorial();
+			t.addEventListener(TutorialEvent.BALAO_ABRIU, onBalaoAbriu);
+
+			t.adicionarBalao('Pressione para ver as orientações', new Point(666,388), CaixaTexto.RIGHT, CaixaTexto.FIRST);
+			t.adicionarBalao('Seu objetivo é determinar a corrente elétrica (I) e a densidade de corrente elétrica (j)...', new Point(150,71), CaixaTexto.LEFT, CaixaTexto.FIRST);
+			t.adicionarBalao(' ... neste circuito',new  Point(341,113), CaixaTexto.TOP, CaixaTexto.CENTER);
+			t.adicionarBalao('Suponha que a corrente elétrica é constante no tempo e que a densidade de corrente elétrica é homogênea no fio.', new Point(352,137), CaixaTexto.TOP, CaixaTexto.FIRST);
+			t.adicionarBalao('A animação representa os elétrons movendo-se pelo fio (modelo de Drude)', new Point(370,230), CaixaTexto.RIGHT, CaixaTexto.FIRST);
+			t.adicionarBalao('Esta linha representa uma visão lateral de uma seção reta do fio.', new Point(473,311), CaixaTexto.RIGHT, CaixaTexto.FIRST);
+			t.adicionarBalao('Utilize este contador de elétrons e cronômetro para medir a quantidade de elétrons que atravessam uma seção reta do fio num intervalo de tempo qualquer.', new Point(97,248), CaixaTexto.LEFT, CaixaTexto.FIRST);
+			t.adicionarBalao('Pressione este botão para começar a contar. Pressione-o novamente para parar.', new Point(43,270), CaixaTexto.TOP, CaixaTexto.FIRST);
+			t.adicionarBalao('Use este botão para zerar a contagem.', new Point(100,270), CaixaTexto.TOP, CaixaTexto.FIRST);
+			t.adicionarBalao('Para calcular a densidade de corrente você precisará também da área da seção reta do fio.', new Point(254,436), CaixaTexto.BOTTOM, CaixaTexto.FIRST);
+			t.adicionarBalao('Digite sua resposta aqui.', new Point(201,76), CaixaTexto.LEFT, CaixaTexto.CENTER);
+			t.adicionarBalao('Quando tiver terminado, pressione este botão para verificar. Pressione-o de novo para começar um novo exercício.', new Point(72,177), CaixaTexto.BOTTOM, CaixaTexto.FIRST);
+			t.adicionarBalao('Quando estiver pronto(a) para ser avaliado(a), pressione este botão.', new Point(173,178), CaixaTexto.BOTTOM, CaixaTexto.FIRST);
+			t.adicionarBalao('Veja seu desempenho aqui.', new Point(683,299), CaixaTexto.RIGHT, CaixaTexto.FIRST);
+
+			t.iniciar(this.stage);
+
+		}
+		
+		private function onBalaoAbriu(e:TutorialEvent):void 
+		{
+			
+		}
+		
 		private function sortArea():void
 		{
 			var rand:int = Math.floor(Math.random() * areasSecao.length);
 			areaSecao = areasSecao[rand];
 			animation.setArea(areaSecao.mantissa, areaSecao.ordem);
-			area.text = areaSecao.mantissa.toFixed(2).replace(".", ",");
+			area.text = areaSecao.mantissa.toFixed(1).replace(".", ",");
 			expoente.text = areaSecao.ordem.toString();
 		}
 		
@@ -618,7 +653,7 @@
 		
 		public function onTutorialClick():void 
 		{
-			
+			criarTutorial();
 		}
 		
 		public function onScormConnected():void 
