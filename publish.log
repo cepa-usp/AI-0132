@@ -1,17 +1,4 @@
-<<<<<<< HEAD
 Copying from /mnt/hgfs/CEPA/github/AI-0132 to cepa@arquivos.atp.usp.br:/work/PUBLICACAO/atividades-interativas/AI-0132
-building file list ... done
-./
-AI-0132_SCO.zip
-js/
-swf/
-swf/AI-0089.swf
-swf/AI-0132.swf
-
-sent 1497787 bytes  received 14412 bytes  1008132.67 bytes/sec
-total size is 2080108  speedup is 1.38
-=======
-Copying from /c/Users/Celso/Desktop/GitHub/AI-0132 to cepa@arquivos.atp.usp.br:/work/PUBLICACAO/atividades-interativas/AI-0132
 building file list ... done
 ./
 AI-0132_SCO.zip
@@ -28,6 +15,5 @@ swf/AI-0132.swf
 swf/AI_Loader.swf
 swf/expressInstall.swf
 
-sent 99659 bytes  received 15500 bytes  230318.00 bytes/sec
-total size is 2080808  speedup is 18.07
->>>>>>> 17487e1a7cec71b68cb231ffaa033fdc6633ef62
+sent 2027477 bytes  received 15506 bytes  1361988.67 bytes/sec
+total size is 2520755  speedup is 1.23
