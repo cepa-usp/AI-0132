@@ -77,7 +77,7 @@
 			ai = new AI(this);
 			ai.container.optionButtons.addAllButtons();
 			ai.container.setMessageTextVisible(false);
-			ai.debugMode = true;
+			ai.debugMode = false;
 			var eval:ProgressiveEvaluator = new ProgressiveEvaluator(ai);
 			eval.feedback.x = stage.stageWidth / 2;
 			eval.feedback.y = stage.stageHeight / 2;
@@ -106,7 +106,7 @@
 			menuBar.btValendoNota.buttonMode = true
 
 			
-			
+			criarTutorial();
 		}
 		
 		private var originalFrameRate:int = stage.frameRate;
@@ -217,6 +217,7 @@
 			menuBar.answerCorrente.visible = false;
 			menuBar.answerDensidade.visible = false;
 			menuBar.btValendoNota.visible = true;
+			menuBar.btn_upDown.gotoAndStop("FECHAR");
 			
 			
 			
@@ -504,7 +505,7 @@
 			//hideAnswer();
 		}
 		
-		private var menuOpen:Boolean = false;
+		private var menuOpen:Boolean = true;
 		private var tweenMenu:Tween;
 
 		private function openCloseMenuBar(e:MouseEvent):void
@@ -513,17 +514,17 @@
 			trace(menuBar, posXini, menuOpen)
 			if(menuOpen){
 				menuOpen = false;
-				Actuate.tween(menuBar, 1, { x:(-menuBar.width) } );
+				Actuate.tween(menuBar, 1, { x:(-menuBar.width) } ).onComplete(changeBtnUpDown);
 				
 				//tweenMenu = new Tween(menuBar, "y", None.easeNone, menuBar.x, 53, 1.3, true);
 			}else{
 				menuOpen = true;
-				Actuate.tween(menuBar, 1, { x:posXini } );
+				Actuate.tween(menuBar, 1, { x:posXini } ).onComplete(changeBtnUpDown);
 			}
 			//tweenMenu.addEventListener(TweenEvent.MOTION_FINISH, changeBtnUpDown);
 		}
 
-		private function changeBtnUpDown(e:TweenEvent):void
+		private function changeBtnUpDown(e:TweenEvent = null):void
 		{
 			if(menuOpen){
 				menuBar.btn_upDown.gotoAndStop("FECHAR");
